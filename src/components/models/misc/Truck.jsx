@@ -42,6 +42,7 @@ export function Truck(props) {
         body.current.setEnabled(false);
         }
       }}
+      rotation={props.rotation}
       position={props.position}
       colliders={false}
     >

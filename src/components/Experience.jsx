@@ -28,6 +28,7 @@ import { Clock } from "./models/misc/Clock";
 import { Truck } from "./models/misc/Truck";
 import { Virus } from "./models/misc/Corona_virus";
 import { Elevated_Corona_virus } from "./models/misc/Elevated_Corona_virus";
+import { Water_Truck } from "./models/misc/Water_Truck";
 import { useStore } from "./store";
 import { Shell } from "./models/items/Mario_shell_red";
 import { Coin } from "./models/misc/Super_mario_bros_coin";
@@ -247,8 +248,8 @@ const renderPerils = (perils) => {
       case "BIO_HAZARD":return <Bomb position={e.coordinates} item={e.id} config={e} key={e.id} />;
       case "CLOCK":return <Clock position={e.coordinates} item={e.id} config={e} key={e.id} />;
       case "VIRUS":return <Virus position={e.coordinates} item={e.id} config={e} key={e.id} />;
-      case "ELEVATED_VIRUS":return <Elevated_Corona_virus position={e.coordinates} item={e.id} config={e} key={e.id} />;
-      
+      case "ELEVATED_VIRUS":return <Elevated_Corona_virus position={e.coordinates} rotation={e.rotation} item={e.id} config={e} key={e.id} />;
+      case "WATER_TANK":return <Water_Truck position={e.coordinates} item={e.id} config={e} key={e.id} />;
       case "LUNGS":return <Bomb position={e.coordinates} item={e.id} config={e} key={e.id} />;
       case "THUNDER":return <Bomb position={e.coordinates} item={e.id} config={e} key={e.id} />;
       default: return <></>
