@@ -169,9 +169,9 @@ export const Experience = () => {
       {/* <ItemBox position={[-30, 2.5, -119]} item= "item2" /> */}
       {/* <PerilBox position={[-40, 2.5, -119]} item= "Peril1" /> */}
       {/* <Bomb position={[-40, 2.5, -119]} item= "Peril2" /> */}
-      {/* {renderCovers(covers)} */}
+      {renderCovers(covers)}
       {renderPerils(perils)}
-      {/* {renderCoins(coins)} */}
+      {renderCoins(coins)}
       <Skid />
       <Dust />
 
@@ -233,32 +233,32 @@ export const Experience = () => {
 };
 
 const renderCoins = (coins) => {
-  return coins.map(e => {
-    return <Coin position={e.coordinates} key={e.id} />
+  return coins.map((e, i) => {
+    return <Coin position={e.coordinates} key={i} />
   })
 }
 
 const renderPerils = (perils) => {
-  return perils.map(e => {
+  return perils.map((e, i) => {
     switch(e.id) {
-      case "TRUCK":return <Truck position={e.coordinates} rotation={e.rotation} item={e.id} config={e} key={e.id} />;
-      case "BOMB":return <Bomb position={e.coordinates} item={e.id} config={e} key={e.id} />;
-      case "TRANSFORMER":return <Bomb position={e.coordinates} item={e.id} config={e} key={e.id} />;
-      case "MAGNET":return <Bomb position={e.coordinates} item={e.id} config={e} key={e.id} />;
-      case "BIO_HAZARD":return <Bomb position={e.coordinates} item={e.id} config={e} key={e.id} />;
-      case "CLOCK":return <Clock position={e.coordinates} item={e.id} config={e} key={e.id} />;
-      case "VIRUS":return <Virus position={e.coordinates} item={e.id} config={e} key={e.id} />;
-      case "ELEVATED_VIRUS":return <Elevated_Corona_virus position={e.coordinates} rotation={e.rotation} item={e.id} config={e} key={e.id} />;
-      case "WATER_TANK":return <Water_Truck position={e.coordinates} item={e.id} config={e} key={e.id} />;
-      case "LUNGS":return <Bomb position={e.coordinates} item={e.id} config={e} key={e.id} />;
-      case "THUNDER":return <Bomb position={e.coordinates} item={e.id} config={e} key={e.id} />;
+      case "TRUCK":return <Truck position={e.coordinates} rotation={e.rotation} item={e.id} config={e} key={i} />;
+      case "BOMB":return <Bomb position={e.coordinates} item={e.id} config={e} key={i} />;
+      case "TRANSFORMER":return <Bomb position={e.coordinates} item={e.id} config={e} key={i} />;
+      case "MAGNET":return <Bomb position={e.coordinates} item={e.id} config={e} key={i} />;
+      case "BIO_HAZARD":return <Bomb position={e.coordinates} item={e.id} config={e} key={i} />;
+      case "CLOCK":return <Clock position={e.coordinates} item={e.id} config={e} key={i} />;
+      case "VIRUS":return <Virus position={e.coordinates} item={e.id} config={e} key={i} />;
+      case "ELEVATED_VIRUS":return <Elevated_Corona_virus position={e.coordinates} rotation={e.rotation} item={e.id} config={e} key={i} />;
+      case "WATER_TANK":return <Water_Truck position={e.coordinates} item={e.id} config={e} key={i} />;
+      case "LUNGS":return <Bomb position={e.coordinates} item={e.id} config={e} key={i} />;
+      case "THUNDER":return <Bomb position={e.coordinates} item={e.id} config={e} key={i} />;
       default: return <></>
     }
   })
 }
 
 const renderCovers = (covers) => {
-  return covers.map(e => {
-    return <ItemBox position={e.coordinates} item={e.id} config={e} key={e.key} />;
+  return covers.map((e, i) => {
+    return <ItemBox position={e.coordinates} item={e.id} config={e} key={i} />;
   })
 }

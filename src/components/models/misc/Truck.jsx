@@ -26,16 +26,14 @@ export function Truck(props) {
     // }
   }
   );
-console.log("this is misc truck")
   return (
     <>
     <RigidBody type="fixed" name="itemBox"
       sensor
       ref={body}
       onIntersectionEnter={({other}) => {
-        console.log("Intersection entered withasdfasdf: ", other.rigidBodyObject.name);
         if(other.rigidBodyObject.name === "player"){
-          console.log("here", perilTouched)
+          
           if(!perilTouched) {
             actions.setInformationDialog("peril")
           } else {
@@ -52,7 +50,7 @@ console.log("this is misc truck")
       position={props.position}
       colliders={false}
     >
-    <CuboidCollider args={[20.5, 20.5, 20.5]} />
+    <CuboidCollider args={[10.5, 10.5, 10.5]} />
     </RigidBody>
     <group ref={ref} position={props.position} rotation={props.rotation} dispose={null} scale={scale*100} >
       <mesh castShadow receiveShadow geometry={nodes.MM_Camion_ParteDelantera.geometry} material={materials.mobile_Camion} position={[0.187, 0.047, 0.052]} rotation={[Math.PI / 2, 0, -1.616]} scale={scale*0.01} />

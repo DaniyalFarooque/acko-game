@@ -7,6 +7,7 @@ import { Landing } from './Landing'
 import { InfoModal } from './InfoModal'
 import { useStore } from './components/store'
 import { InformationDialog } from './InformationDialog'
+import {GameOver} from './GameOver'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -15,5 +16,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Landing />
     <InfoModal />
     <InformationDialog />
+    <GameOver />
   </React.StrictMode>,
 )

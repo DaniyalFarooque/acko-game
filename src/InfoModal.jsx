@@ -85,7 +85,7 @@ export const InfoModal = () => {
   peril.coveredUnder.map(e => {
     coversNeeded.push(coverConfig.find(x => x.id === e))
   })
-  console.log(coversNeeded, "asdfasdf", item, item.includes("FIRE_HAZARD_COVER"))
+  
 
   // {item.contains(e.id)?"power_available": "power_unavailable"}
   return (

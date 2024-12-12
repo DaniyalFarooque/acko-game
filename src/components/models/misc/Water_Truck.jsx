@@ -13,7 +13,7 @@ import { useFrame } from '@react-three/fiber';
 export function Water_Truck(props) {
   const { nodes, materials } = useGLTF('./models/misc/waterTruck-transformed.glb')
 
-  const { actions, coverTouched } = useStore();
+  const { actions, perilTouched } = useStore();
   const ref = useRef();
   const [scale, setScale] = React.useState(0.6);
   const frames = useRef(0);
@@ -24,7 +24,6 @@ export function Water_Truck(props) {
     ref.current.rotation.x = 0
     ref.current.rotation.y += 0
     ref.current.rotation.z = 0
-    console.log('scale', scale)
     if(scale < 0.6 && frames.current > 0){
       frames.current -= 1 * delta * 144;
 
@@ -39,10 +38,12 @@ export function Water_Truck(props) {
       ref={body}
       onIntersectionEnter={({other}) => {
         if(other.rigidBodyObject.name === "player"){
-        if(!coverTouched) {
-          actions.setInformationDialog("cover")
-        }
-        actions.setItem(props.item);
+          if(!perilTouched) {
+            actions.setInformationDialog("peril")
+          } else {
+            actions.openModal();
+          }
+        // actions.setItem(props.item);
         setScale(0);
         frames.current = 400;
         body.current.setEnabled(false);
@@ -51,7 +52,7 @@ export function Water_Truck(props) {
       position={props.position}
       colliders={false}
     >
-    <CuboidCollider args={[1.5, 1.5, 1.5]} />
+    <CuboidCollider args={[10.5, 10.5, 10.5]} />
     </RigidBody>
     <group ref={ref} position={props.position} scale={scale} dispose={null}>
       <group position={[0, 1.831, -0.222]}>

@@ -34,7 +34,7 @@ export const PlayerControllerKeyboard = ({
   networkBananas,
   networkShells,
 }) => {
-  const { actions, shouldSlowDown, item, bananas, coins, id, controls, modalOpen, informationDialog } =
+  const { actions, shouldSlowDown, item, bananas, coins, id, controls, modalOpen, informationDialog, carHealth, lifeHealth } =
     useStore();
   let upPressed = useKeyboardControls((state) => state[Controls.up]);
   let downPressed = useKeyboardControls((state) => state[Controls.down]);
@@ -54,7 +54,7 @@ export const PlayerControllerKeyboard = ({
   let boostSpeed = 40;
   let acceleration = 0.4;
   let decceleration = 0.4;
-  if(modalOpen || informationDialog) {
+  if(modalOpen || informationDialog || carHealth<=0 || lifeHealth<=0) {
     maxSpeed = 0;
     boostSpeed = 0;
     acceleration = 0;
@@ -470,7 +470,7 @@ export const PlayerControllerKeyboard = ({
     // ITEMS
 
     if (shootPressed && item === "banana") {
-      console.log(coins)
+      
       const distanceBehind = 2;
       const scaledBackwardDirection =
         forwardDirection.multiplyScalar(distanceBehind);
@@ -491,7 +491,7 @@ export const PlayerControllerKeyboard = ({
     }
 
     if (shootPressed && item === "shell") {
-      console.log(coins)
+      
       const distanceBehind = -2;
       const scaledBackwardDirection =
         forwardDirection.multiplyScalar(distanceBehind);

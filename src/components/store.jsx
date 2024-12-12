@@ -27,7 +27,7 @@ export const useStore = create((set, get) => ({
   item: [],
   shells: [],
   skids: [],
-  coins : 0,
+  coins : 100,
   players : [],
   body: null,
   id : "",
@@ -239,6 +239,40 @@ export const useStore = create((set, get) => ({
     setInformationDialog: (type) => {
       set(() => ({
         informationDialog: type
+      }))
+    },
+    restartGame: () => {
+      set(() => ({
+        controls: "",
+        particles1: [],
+        particles2: [],
+        leftWheel: null,
+        rightWheel: null,
+        bodyRotation: null,
+        pastPositions: [],
+        shouldSlowdown: false,
+        bananas: [],
+        items: ["mushroom", "shell", "banana"],
+        item: [],
+        shells: [],
+        skids: [],
+        coins : 0,
+        players : [],
+        body: null,
+        id : "",
+        joystickX: 0,
+        driftButton: false,
+        itemButton: false,
+        menuButton: false,
+        isDrifting: false,
+        modalOpen: false,
+        carHealth: 100,
+        lifeHealth: 100,
+        perils: [],
+        coinTouched: false,
+        perilTouched: false,
+        coverTouched: false,
+        informationDialog: null
       }))
     }
   },

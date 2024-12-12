@@ -543,7 +543,7 @@
         "imageUrl": ["../public/images/bomb-blast.png", "../public/images/bomb-human-damage.png"],
         "title": "Catastrophic Event: A bomb threat has caused significant damage",
         "coinsNeeded": 60,
-        "carHealthConsumed": 60,
+        "carHealthConsumed": 160,
         "lifeHealthConsumed": 70,
         "coveredUnder": [
             "FIRE_HAZARD_COVER"

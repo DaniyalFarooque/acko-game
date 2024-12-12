@@ -612,3 +612,18 @@ body::-webkit-scrollbar {
   border-radius: 3px;
   padding: 5px;
 }
+
+.disp-pic {
+  width: 75px;
+  height: 75px;
+  margin: 0 5px;
+  
+  padding: 5px;
+}
+
+.game-over-entities {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 5px;
+}

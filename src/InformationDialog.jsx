@@ -7,7 +7,7 @@ export const InformationDialog = () => {
   const [image, setImage] = useState("");
   const { item, gameStarted, actions, controls, coins, carHealth, informationDialog } = useStore();
 
-  console.log(informationDialog)
+  
   if (!informationDialog) return null;
   return (
     <>

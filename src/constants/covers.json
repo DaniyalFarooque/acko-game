@@ -4,6 +4,7 @@
         "key": "COVER_1",
         "id": "ACCIDENT_COVER",
         "imageUrl": ["../public/images/accident_cover.png"],
+        "title": "Accidental Cover",
         "coordinates": [
             -10,
             2.5,
@@ -15,7 +16,7 @@
         "key": "COVER_1",
         "id": "ACCIDENT_COVER",
         "imageUrl": ["../public/images/accident_cover.png"],
-        "title": "Oops!! Your car got caught in a terrorist attack!!!",
+        "title": "Accidental Cover",
         "coordinates": [
             -53.0,
             1.99,
@@ -27,7 +28,7 @@
         "key": "COVER_2",
         "id": "FIRE_HAZARD_COVER",
         "imageUrl": ["../public/images/fire_hazard.png"],
-        "title": "Oops!! Your car got caught in a terrorist attack!!!",
+        "title": "Fire Guard",
         "coordinates": [
             -71.20452880859375,
             2.0111846923828125,
@@ -39,7 +40,7 @@
         "key": "COVER_3",
         "id": "ELECTRONIC_COVER",
         "imageUrl": ["../public/images/electric_cover.png"],
-        "title": "Oops!! Your car got caught in a terrorist attack!!!",
+        "title": "Electronic Shield",
         "coordinates": [
             -103.89759826660156,
             2.011425018310547,
@@ -51,7 +52,7 @@
         "key": "COVER_4",
         "id": "ENGINE_PROTECTION_COVER",
         "imageUrl": ["../public/images/engine_cover.png"],
-        "title": "Oops!! Your car got caught in a terrorist attack!!!",
+        "title": "Engine Protection Cover",
         "coordinates": [
             -69.08338165283203,
             2.014653205871582,
@@ -63,7 +64,7 @@
         "key": "COVER_5",
         "id": "HEALTH_SHIELD",
         "imageUrl": ["../public/images/health_cover.png"],
-        "title": "Oops!! Your car got caught in a terrorist attack!!!",
+        "title": "Health Shield",
         "coordinates": [
             48.80733,
             1.0204166173,
@@ -75,7 +76,7 @@
         "key": "COVER_7",
         "id": "BILL_COVER",
         "imageUrl": ["../public/images/bill_cover.png"],
-        "title": "Oops!! Your car got caught in a terrorist attack!!!",
+        "title": "Bill Cover",
         "coordinates": [
             -71.03971099853516,
             2.0114662647247314,
@@ -87,7 +88,7 @@
         "key": "COVER_8",
         "id": "TIME_SHIELD",
         "imageUrl": ["../public/images/time_shield.jpeg"],
-        "title": "Oops!! Your car got caught in a terrorist attack!!!",
+        "title": "Time Shield",
         "coordinates": [
             -136.68533325,
             7.010874748,
@@ -99,7 +100,7 @@
         "key": "COVER_9",
         "id": "COVID_COVER",
         "imageUrl": ["../public/images/covid_cover.png"],
-        "title": "Oops!! Your car got caught in a terrorist attack!!!",
+        "title": "Covid protection",
         "coordinates": [
             -13.18533706665,
             0.49726709723472,
@@ -111,7 +112,7 @@
         "key": "COVER_11",
         "id": "LIFE_COVER",
         "imageUrl": ["../public/images/life_cover.png"],
-        "title": "Oops!! Your car got caught in a terrorist attack!!!",
+        "title": "Platinum Life Plan",
         "coordinates": [
             47.2438812255,
             1.0201334953308105,
@@ -123,7 +124,7 @@
         "key": "COVER_9",
         "id": "LIFE_COVER",
         "imageUrl": ["../public/images/life_cover.png"],
-        "title": "Oops!! Your car got caught in a terrorist attack!!!",
+        "title": "Platinum Life Plan",
         "coordinates": [
             -10,
             2.5,
@@ -135,7 +136,7 @@
         "key": "COVER_9",
         "id": "COVID_COVER",
         "imageUrl": ["../public/images/covid_cover.png"],
-        "title": "Oops!! Your car got caught in a terrorist attack!!!",
+        "title": "Covid protection",
         "coordinates": [
             -10,
             2.5,

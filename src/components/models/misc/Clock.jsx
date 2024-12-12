@@ -44,7 +44,6 @@ export function Clock(props) {
       sensor
       ref={body}
       onIntersectionEnter={({other}) => {
-        console.log("Intersection entered with: ", other.rigidBodyObject.name);
         if(other.rigidBodyObject.name === "player"){
 
         // actions.setItem();
