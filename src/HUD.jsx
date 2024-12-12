@@ -5,7 +5,7 @@ import { Joystick } from "react-joystick-component";
 export const HUD = () => {
   const wheel = useRef();
   const [image, setImage] = useState("");
-  const { item, gameStarted, actions, controls, coins } = useStore();
+  const { item, gameStarted, actions, controls, coins, carHealth } = useStore();
   console.log(item)
   useEffect(() => {
     const handleMouseMove = (e) => {
@@ -57,22 +57,10 @@ export const HUD = () => {
   }
 
   return (
+    <>
     <div className="overlay">
       {gameStarted && (
         <>
-        <div >
-      <div className="item">
-                <div className="borderOut">
-                  <div className="borderIn">
-                    <div className="background">
-                    <div className="coinClass">
-            <img src="./images/coin.png" alt="item" width={50} /> <div className="coinText">{coins}</div>
-            </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              </div>
             {item.map(e => {
               return (<div className="item">
                 <div className="borderOut">
@@ -161,5 +149,30 @@ export const HUD = () => {
         </>
       )}
     </div>
+    {gameStarted && <div className="right-overlay">
+      <div className="item">
+                <div className="borderOut">
+                  <div className="borderIn">
+                    <div className="background">
+                    <div className="coinClass">
+            <img src="./images/coin.png" alt="item" width={50} /> <div className="coinText">{coins}</div>
+            </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="item" style={{marginTop: 20}}>
+                <div className="borderOut">
+                  <div className="borderIn">
+                    <div className="background">
+                    <div className="coinClass">
+            <img src="./images/carHealth.webp" alt="item" width={50} /> <div className="coinText">{carHealth}</div>
+            </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>}
+    </>
   );
 };

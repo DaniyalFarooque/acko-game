@@ -67,30 +67,9 @@ export const InfoModal = () => {
                 <p>Keyboard</p>
               </div> 
             </div>
-            <div className={controlStyle === "gamepad" ? "article selected" : "article"} onClick={() => 
-            setControlStyle("gamepad")}>
-              <img src="./images/gamepad.png" alt="gamepad" />
-              <div className="article_label">
-                <p>Gamepad</p>
-              </div>
-            </div>
-            <div className={controlStyle === "mouseKeyboard" ? "article selected" : "article"} onClick={() => 
-            setControlStyle("mouseKeyboard")}>
-              <img src="./images/mousekeyboard.png" alt="mouse & keyboard" />
-              <div className="article_label">
-                <p>Mouse & Keyboard</p>
-              </div>
-            </div>
-            <div className={controlStyle === "touch" ? "article selected" : "article"} onClick={() => 
-            setControlStyle("touch")}>
-              <img src="./images/mobile.png" alt="mobile" />
-              <div className="article_label">
-                <p>Mobile</p>
-              </div>
-            </div>
             
           </div>
-
+          <h1>Oops your car got hit by a bomb</h1>
           <div className={controlStyle != "" ? "submit" : "submit disabled"}>
             <button
               className={controlStyle != "" ? "submit-button" : "submit-button disabled"}
@@ -106,57 +85,6 @@ export const InfoModal = () => {
         </div>
       </div>
         
-      )}
-      {setupStatus === 1 && (
-        <div className="home">
-        <div className="glassy">
-          <h1>CHOOSE YOUR CONTROL STYLE</h1>
-
-          <div className="articles">
-          <div className={controlStyle === "keyboard" ? "article selected" : "article"} onClick={() => 
-            setControlStyle("keyboard")}>
-              <img src="./images/keyboard.png" alt="keyboard" />
-              <div className="article_label">
-                <p>Keyboard</p>
-              </div> 
-            </div>
-            <div className={controlStyle === "gamepad" ? "article selected" : "article"} onClick={() => 
-            setControlStyle("gamepad")}>
-              <img src="./images/gamepad.png" alt="gamepad" />
-              <div className="article_label">
-                <p>Gamepad</p>
-              </div>
-            </div>
-            <div className={controlStyle === "mouseKeyboard" ? "article selected" : "article"} onClick={() => 
-            setControlStyle("mouseKeyboard")}>
-              <img src="./images/mousekeyboard.png" alt="mouse & keyboard" />
-              <div className="article_label">
-                <p>Mouse & Keyboard</p>
-              </div>
-            </div>
-            <div className={controlStyle === "touch" ? "article selected" : "article"} onClick={() => 
-            setControlStyle("touch")}>
-              <img src="./images/mobile.png" alt="mobile" />
-              <div className="article_label">
-                <p>Mobile</p>
-              </div>
-            </div>
-            
-          </div>
-
-          <div className={controlStyle != "" ? "submit" : "submit disabled"}>
-            <button
-              className={controlStyle != "" ? "submit-button" : "submit-button disabled"}
-              onClick={() => {
-                actions.setControls(controlStyle);
-                actions.setGameStarted(true);
-              }}
-            >
-              CONFIRM
-            </button>
-          </div>
-        </div>
-      </div>
       )}
     </>
 

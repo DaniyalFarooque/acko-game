@@ -45,6 +45,11 @@ body::-webkit-scrollbar {
   color: #ffffff;
   text-align: center;
 }
+.right-overlay{
+  position: absolute;
+  right: 75px;
+  top: 75px;
+}
 /* .overlay {
   position: absolute;
   top: 0;

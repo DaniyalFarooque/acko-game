@@ -37,6 +37,7 @@ export const useStore = create((set, get) => ({
   menuButton: false,
   isDrifting: false,
   modalOpen: false,
+  carHealth: 100,
   addPastPosition: (position) => {
     set((state) => ({
       pastPositions: [position, ...state.pastPositions.slice(0, 499)],
@@ -188,6 +189,16 @@ export const useStore = create((set, get) => ({
     },
     closeModal: () => {
       set({modalOpen: false})
+    },
+    decreaseCarHealth:(a)=>{
+      set((state) => ({
+        carHealth: state.carHealth-a,
+      }));
+    },
+    increaseCarHealth:(a)=>{
+      set((state) => ({
+        carHealth: state.carHealth+a,
+      }));
     }
   },
  
