@@ -28,12 +28,12 @@ export function Virus(props) {
       frames.current -= 1 * delta * 144;
 
     }
-    if(frames.current <= 0){
-      setScale(Math.min(scale + 0.5 * delta, 0.6));
-      if(body.current){
-        body.current.setEnabled(true);
-      }
-    }
+    // if(frames.current <= 0){
+    //   setScale(Math.min(scale + 0.5 * delta, 0.6));
+    //   if(body.current){
+    //     body.current.setEnabled(true);
+    //   }
+    // }
   }
   );
   // return (

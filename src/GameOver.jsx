@@ -58,7 +58,7 @@ export const GameOver = () => {
               })}
             </div>
           </div>
-          {coins < 100 && <div>
+          {coins >= 100 && <div>
             <h1 style={{ marginBottom: 30 }}>YOU WON</h1>
             <p>Great! You made some amazing choices. You have more coins than you had initially. </p>
             <p>You can redeem them now to avail great discount with the plan you made!!
@@ -89,7 +89,7 @@ export const GameOver = () => {
               </div>
             </div>
           </div>}
-          {coins >= 100 && <div>
+          {coins < 100 && <div>
             <h1 style={{ marginBottom: 30, marginTop: 100 }}>YOU LOST</h1>
             <p style={{ marginBottom: 40 }}>You lost due to your poor choices. Current wallet has less coins than the initial amount.</p>
             <div className={"submit"} style={{ margin: '0 auto' }}>
