@@ -38,6 +38,7 @@ export const useStore = create((set, get) => ({
   isDrifting: false,
   modalOpen: false,
   carHealth: 100,
+  lifeHealth: 100,
   perils: [],
   coinTouched: false,
   perilTouched: false,
@@ -203,6 +204,16 @@ export const useStore = create((set, get) => ({
     increaseCarHealth:(a)=>{
       set((state) => ({
         carHealth: state.carHealth+a,
+      }));
+    },
+    decreaseLifeHealth:(a)=>{
+      set((state) => ({
+        lifeHealth: state.lifeHealth-a,
+      }));
+    },
+    increaseLifeHealth:(a)=>{
+      set((state) => ({
+        lifeHealth: state.lifeHealth+a,
       }));
     },
     addPerils:(id) => {

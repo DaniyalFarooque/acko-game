@@ -3,7 +3,7 @@
         "type": "COVER",
         "key": "COVER_1",
         "id": "ACCIDENT_COVER",
-        "imageUrl": "../public/images/accident_cover.png",
+        "imageUrl": ["../public/images/accident_cover.png"],
         "coordinates": [
             -10,
             2.5,
@@ -14,7 +14,7 @@
         "type": "COVER",
         "key": "COVER_1",
         "id": "ACCIDENT_COVER",
-        "imageUrl": "../public/images/accident_cover.png",
+        "imageUrl": ["../public/images/accident_cover.png"],
         "title": "Oops!! Your car got caught in a terrorist attack!!!",
         "coordinates": [
             -53.0,
@@ -26,7 +26,7 @@
         "type": "COVER",
         "key": "COVER_2",
         "id": "FIRE_HAZARD_COVER",
-        "imageUrl": "../public/images/fire_hazard.png",
+        "imageUrl": ["../public/images/fire_hazard.png"],
         "title": "Oops!! Your car got caught in a terrorist attack!!!",
         "coordinates": [
             -71.20452880859375,
@@ -38,7 +38,7 @@
         "type": "COVER",
         "key": "COVER_3",
         "id": "ELECTRONIC_COVER",
-        "imageUrl": "../public/images/electric_cover.png",
+        "imageUrl": ["../public/images/electric_cover.png"],
         "title": "Oops!! Your car got caught in a terrorist attack!!!",
         "coordinates": [
             -103.89759826660156,
@@ -50,7 +50,7 @@
         "type": "COVER",
         "key": "COVER_4",
         "id": "ENGINE_PROTECTION_COVER",
-        "imageUrl": "../public/images/engine_cover.png",
+        "imageUrl": ["../public/images/engine_cover.png"],
         "title": "Oops!! Your car got caught in a terrorist attack!!!",
         "coordinates": [
             -69.08338165283203,
@@ -62,7 +62,7 @@
         "type": "COVER",
         "key": "COVER_5",
         "id": "HEALTH_SHIELD",
-        "imageUrl": "../public/images/health_cover.png",
+        "imageUrl": ["../public/images/health_cover.png"],
         "title": "Oops!! Your car got caught in a terrorist attack!!!",
         "coordinates": [
             48.80733,
@@ -74,7 +74,7 @@
         "type": "COVER",
         "key": "COVER_7",
         "id": "BILL_COVER",
-        "imageUrl": "../public/images/bill_cover.png",
+        "imageUrl": ["../public/images/bill_cover.png"],
         "title": "Oops!! Your car got caught in a terrorist attack!!!",
         "coordinates": [
             -71.03971099853516,
@@ -86,7 +86,7 @@
         "type": "COVER",
         "key": "COVER_8",
         "id": "TIME_SHIELD",
-        "imageUrl": "../public/images/time_shield.png",
+        "imageUrl": ["../public/images/time_shield.jpeg"],
         "title": "Oops!! Your car got caught in a terrorist attack!!!",
         "coordinates": [
             -136.68533325,
@@ -98,7 +98,7 @@
         "type": "COVER",
         "key": "COVER_9",
         "id": "COVID_COVER",
-        "imageUrl": "../public/images/covid_cover.png",
+        "imageUrl": ["../public/images/covid_cover.png"],
         "title": "Oops!! Your car got caught in a terrorist attack!!!",
         "coordinates": [
             -13.18533706665,
@@ -110,7 +110,7 @@
         "type": "COVER",
         "key": "COVER_11",
         "id": "LIFE_COVER",
-        "imageUrl": "../public/images/life_cover.png",
+        "imageUrl": ["../public/images/life_cover.png"],
         "title": "Oops!! Your car got caught in a terrorist attack!!!",
         "coordinates": [
             47.2438812255,
@@ -122,7 +122,7 @@
         "type": "COVER",
         "key": "COVER_9",
         "id": "LIFE_COVER",
-        "imageUrl": "../public/images/life_cover.png",
+        "imageUrl": ["../public/images/life_cover.png"],
         "title": "Oops!! Your car got caught in a terrorist attack!!!",
         "coordinates": [
             -10,
@@ -134,7 +134,7 @@
         "type": "COVER",
         "key": "COVER_9",
         "id": "COVID_COVER",
-        "imageUrl": "../public/images/covid_cover.png",
+        "imageUrl": ["../public/images/covid_cover.png"],
         "title": "Oops!! Your car got caught in a terrorist attack!!!",
         "coordinates": [
             -10,

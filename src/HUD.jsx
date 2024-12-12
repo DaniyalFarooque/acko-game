@@ -5,7 +5,7 @@ import { Joystick } from "react-joystick-component";
 export const HUD = () => {
   const wheel = useRef();
   const [image, setImage] = useState("");
-  const { item, gameStarted, actions, controls, coins, carHealth } = useStore();
+  const { item, gameStarted, actions, controls, coins, carHealth, lifeHealth } = useStore();
   useEffect(() => {
     const handleMouseMove = (e) => {
       if (wheel.current) {
@@ -172,6 +172,17 @@ export const HUD = () => {
                     <div className="background">
                     <div className="coinClass">
             <img src="./images/carHealth.webp" alt="item" width={50} /> <div className="coinText">{carHealth}</div>
+            </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="item" style={{marginTop: 20}}>
+                <div className="borderOut">
+                  <div className="borderIn">
+                    <div className="background">
+                    <div className="coinClass">
+            <img src="./images/hp.png" alt="item" width={50} /> <div className="coinText">{lifeHealth}</div>
             </div>
                     </div>
                   </div>

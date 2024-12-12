@@ -144,7 +144,8 @@ export const InfoModal = () => {
                 <button
                   className={"submit-button"}
                   onClick={() => {
-                    actions.decreaseCarHealth(peril.carHealthConsumed);
+                    if(peril.carHealthConsumed) actions.decreaseCarHealth(peril.carHealthConsumed);
+                    if(peril.lifeHealthConsumed) actions.decreaseLifeHealth(peril.lifeHealthConsumed)
                     actions.closeModal();
                   }}
                 >
