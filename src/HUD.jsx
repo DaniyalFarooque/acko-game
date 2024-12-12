@@ -51,9 +51,9 @@ export const HUD = () => {
   //   }
   // }, [item]);
   const linkIdHash = {
-    "item1": "./images/banana.webp",
-    "item2": "./images/mushroom.png",
-    "item3": "./images/mushroom.png"
+    "item1": "./images/time_shield.jpeg",
+    "item2": "./images/covid_cover.png",
+    "item3": "./images/fire_hazard.png"
   }
 
   return (
