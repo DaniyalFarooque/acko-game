@@ -57,7 +57,7 @@ export const Landing = () => {
       {setupStatus === 0 && (
         <div className="home" ref={homeRef}>
           <div className="logo">
-            <img ref={logo} src="./logo.png" alt="logo" />
+            <img ref={logo} src="./logo2.png" alt="logo" />
           </div>
           {/* <div className="intro glassy" >
               Hello world
