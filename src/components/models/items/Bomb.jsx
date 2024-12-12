@@ -46,7 +46,7 @@ export function Bomb(props) {
       onIntersectionEnter={({other}) => {
         if(other.rigidBodyObject.name === "player"){
 
-        actions.setItem();
+        // actions.setItem();
         setScale(0);
         frames.current = 400;
         body.current.setEnabled(false);

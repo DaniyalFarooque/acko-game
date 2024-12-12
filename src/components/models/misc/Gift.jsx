@@ -16,7 +16,7 @@ import { useFrame } from '@react-three/fiber';
 
 export function ItemBox(props) {
   const { nodes, materials } = useGLTF('./models/misc/gift-transformed.glb');
-  const { actions } = useStore();
+  const { actions, coverTouched } = useStore();
   const ref = useRef();
   const [scale, setScale] = React.useState(0.6);
   const frames = useRef(0);
@@ -46,7 +46,9 @@ export function ItemBox(props) {
       ref={body}
       onIntersectionEnter={({other}) => {
         if(other.rigidBodyObject.name === "player"){
-        
+        if(!coverTouched) {
+          actions.setInformationDialog("cover")
+        }
         actions.setItem(props.item);
         setScale(0);
         frames.current = 400;

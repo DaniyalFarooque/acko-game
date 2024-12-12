@@ -19,7 +19,7 @@ export function Coin(props) {
   const { nodes, materials } = useGLTF(
     "./models/misc/super_mario_bros_coin-transformed.glb"
   );
-  const { actions } = useStore();
+  const { actions, coinTouched } = useStore();
   const [scale, setScale] = React.useState(0.424);
   const frames = useRef(0);
   useFrame((state, delta) => {
@@ -47,6 +47,9 @@ export function Coin(props) {
         sensor
         onIntersectionEnter={({ manifold, target, other}) => {
           if(other.rigidBodyObject.name === "player"){
+            if(!coinTouched) {
+              actions.setInformationDialog("coin")
+            }
             actions.addCoins();
             setScale(0);
             frames.current = 600;

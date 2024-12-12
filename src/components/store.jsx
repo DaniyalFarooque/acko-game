@@ -39,6 +39,10 @@ export const useStore = create((set, get) => ({
   modalOpen: false,
   carHealth: 100,
   perils: [],
+  coinTouched: false,
+  perilTouched: false,
+  coverTouched: false,
+  informationDialog: null,
   addPastPosition: (position) => {
     set((state) => ({
       pastPositions: [position, ...state.pastPositions.slice(0, 499)],
@@ -206,6 +210,26 @@ export const useStore = create((set, get) => ({
         perils: [...state.perils, id],
       }));
     },
+    setCoinTouched: () => {
+      set(() => ({
+        coinTouched: true
+      }))
+    },
+    setPerilTouched: () => {
+      set(() => ({
+        perilTouched: true
+      }))
+    },
+    setCoverTouched: () => {
+      set(() => ({
+        coverTouched: true
+      }))
+    },
+    setInformationDialog: (type) => {
+      set(() => ({
+        informationDialog: type
+      }))
+    }
   },
  
 }));

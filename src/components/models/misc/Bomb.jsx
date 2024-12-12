@@ -14,7 +14,7 @@ import { useFrame } from '@react-three/fiber';
 export function Bomb(props) {
   const { nodes, materials } = useGLTF('./models/items/bomb.glb')
 
-  const { actions } = useStore();
+  const { actions, perilTouched } = useStore();
   const ref = useRef();
   const [scale, setScale] = React.useState(0.6);
   const frames = useRef(0);
@@ -45,6 +45,9 @@ export function Bomb(props) {
       ref={body}
       onIntersectionEnter={({other}) => {
         if(other.rigidBodyObject.name === "player"){  
+          if(!perilTouched) {
+            actions.setInformationDialog("peril")
+          }
             actions.openModal();
         actions.addPerils(props.item);
         setScale(0);

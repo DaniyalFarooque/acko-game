@@ -34,7 +34,7 @@ export const PlayerControllerKeyboard = ({
   networkBananas,
   networkShells,
 }) => {
-  const { actions, shouldSlowDown, item, bananas, coins, id, controls, modalOpen } =
+  const { actions, shouldSlowDown, item, bananas, coins, id, controls, modalOpen, informationDialog } =
     useStore();
   let upPressed = useKeyboardControls((state) => state[Controls.up]);
   let downPressed = useKeyboardControls((state) => state[Controls.down]);
@@ -50,11 +50,11 @@ export const PlayerControllerKeyboard = ({
   const kart = useRef();
   const cam = useRef();
   const initialSpeed = 0;
-  let maxSpeed = 50;
-  let boostSpeed = 50;
-  let acceleration = 0.5;
-  let decceleration = 0.7;
-  if(modalOpen) {
+  let maxSpeed = 40;
+  let boostSpeed = 40;
+  let acceleration = 0.4;
+  let decceleration = 0.4;
+  if(modalOpen || informationDialog) {
     maxSpeed = 0;
     boostSpeed = 0;
     acceleration = 0;

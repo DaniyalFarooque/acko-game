@@ -51,6 +51,7 @@ body::-webkit-scrollbar {
   top: 75px;
 }
 .info-modal-image {
+  margin: 40px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,8 +85,10 @@ body::-webkit-scrollbar {
 }
 
 .glassy-info-modal {
+  text-align: center;
   width: 80vw;
-  height: 90vh;
+  height: 80vh;
+  margin: 50px 0;
   background: #0000008f;
   /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
   backdrop-filter: blur(0px);
@@ -94,10 +97,6 @@ body::-webkit-scrollbar {
   border: 1px solid rgba(255, 255, 255, 0.18);
   color: white;
   position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
   padding: 40px;
   transition: all 0.5s ease 0s;
   animation : froze 2s ease 1s both;
@@ -570,4 +569,46 @@ body::-webkit-scrollbar {
       }
     }
   }
+}
+
+.intro {
+  font-size: 30px;opacity: 1;color: #eee;text-align: center;height: 100px;width: 500px;margin: 0 auto;align-items: center;
+}
+
+.power_available {
+
+    width: 145px;
+    margin-top: 30px;
+    border: 15px solid #56f756;
+    border-radius: 30px;
+    padding: 20px;
+
+}
+
+.power_unavailable {
+
+  width: 145px;
+  margin-top: 30px;
+  border: 15px solid #ff0101;
+  border-radius: 30px;
+  padding: 20px;
+
+}
+
+.red-color {
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+  border: 5px solid #ff0101;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.green-color {
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+  border: 5px solid #56f756;
+  border-radius: 3px;
+  padding: 5px;
 }

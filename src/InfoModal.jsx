@@ -52,15 +52,15 @@ export const InfoModal = () => {
   }, [setupStatus]);
 
   if (!modalOpen) {
-    return null; 
+    return null;
   }
-  const peril = perilsConfig.filter(e => e.id===perils[perils.length-1])[0];
+  const peril = perilsConfig.filter(e => e.id === perils[perils.length - 1])[0];
 
   const coverArray = [];
   const isClaimAvailable = item.find(e => {
     let available = false;
     peril.coveredUnder.map(perilConf => {
-      if(e === perilConf) {
+      if (e === perilConf) {
         available = true;
         coverArray.push(coverConfig.find(x => x.id === e));
       }
@@ -80,65 +80,98 @@ export const InfoModal = () => {
   //   }
   //   return ", " + acc;
   // }, "", acc)
-  console.log(coverNameString, "asdfasdf")
+
+  let coversNeeded = [];
+  peril.coveredUnder.map(e => {
+    coversNeeded.push(coverConfig.find(x => x.id === e))
+  })
+  console.log(coversNeeded, "asdfasdf", item, item.includes("FIRE_HAZARD_COVER"))
+
+  // {item.contains(e.id)?"power_available": "power_unavailable"}
   return (
     <>
       {modalOpen && (
-        <div className="home">
-        <div className="glassy-info-modal">
-          <h1>{peril.title}</h1>
+        <div className="home" style={{
+          display: "flex", gap: 30
+        }}>
+          <div className="glassy-info-modal" style={{ width: "80vh" }}>
+            <h1 style={{color: "#ff0101",
+    textTransform: "uppercase"}}>{peril.title}</h1>
 
-          <div className="info-modal-image">
-          <div className= "article" onClick={() => 
-            setControlStyle("keyboard")}>
-              <img src={peril.imageUrl} alt="keyboard" />
-             
+            <div className="info-modal-image">
+              {peril.imageUrl.map(e => {
+
+                return <div className="article">
+                  <img src={e} alt="keyboard" />
+                </div>
+
+
+              })}
             </div>
-            
+            {/* <h2 style={{ textAlign: "center" }}>Your existing coins: {coins}</h2> */}
+            <h2 style={{ textAlign: "center", textTransform: "uppercase" }}>Damage to car health: {peril.carHealthConsumed}</h2>
+            <h2 style={{ textAlign: "center", textTransform: "uppercase" }}>Damage to personal health: {peril.lifeHealthConsumed}</h2>
+            {isClaimAvailable &&
+              <h2 style={{ textAlign: "center", marginTop: 40, color: "#56f756", textTransform: "uppercase" }}>Good for you!! This is already covered under<br /> <b>{coverNameString}</b></h2>
+            }
+            <div style={{ display: "flex", gap: 30, marginTop: 100, 
+    color: "#ff0101",
+    textTransform: "uppercase"
+ }}>
+              <div className={isClaimAvailable ? "submit" : "submit disabled"}>
+                <button
+                  className={isClaimAvailable ? "submit-button" : "submit-button disabled"}
+                  onClick={() => {
+                    actions.closeModal();
+                  }}
+                >
+                  CLAIM SUPERPOWER
+                </button>
+              </div>
+
+              <div className={coins >= peril.coinsNeeded ? "submit" : "submit disabled"}>
+                <button
+                  className={coins >= peril.coinsNeeded ? "submit-button" : "submit-button disabled"}
+                  onClick={() => {
+                    actions.looseCoins(peril.coinsNeeded)
+                    actions.closeModal();
+                  }}
+                >
+                  Use Coins: {peril.coinsNeeded}
+                </button>
+              </div>
+              <div className={"submit"}>
+                <button
+                  className={"submit-button"}
+                  onClick={() => {
+                    actions.decreaseCarHealth(peril.carHealthConsumed);
+                    actions.closeModal();
+                  }}
+                >
+                  Sustain Damage
+                </button>
+              </div>
+            </div>
           </div>
-          <h2 style={{textAlign: "center"}}>Your existing coins: {coins}</h2>
-          <h2 style={{textAlign: "center"}}>Damage to car health: {peril.carHealthConsumed}</h2>
-          {isClaimAvailable && 
-            <h2 style={{textAlign: "center"}}>Good for you!! This is already covered under: {coverNameString}</h2>
-          }
-          <div style = {{display: "flex", gap: 30}}>
-          { isClaimAvailable && <div className={"submit"}>
-            <button
-              className={controlStyle != "" ? "submit-button" : "submit-button disabled"}
-              onClick={() => {
-                actions.closeModal();
-              }}
-            >
-              CLAIM COVER
-            </button>
-          </div>}
-          
-          <div className={coins>=peril.coinsNeeded ? "submit" : "submit disabled"}>
-            <button
-              className={coins>=peril.coinsNeeded ? "submit-button" : "submit-button disabled"}
-              onClick={() => {
-                actions.looseCoins(peril.coinsNeeded)
-                actions.closeModal();
-              }}
-            >
-              Use Coins: {peril.coinsNeeded}
-            </button>
-          </div>
-          <div className={"submit"}>
-            <button
-              className={"submit-button"}
-              onClick={() => {
-                actions.decreaseCarHealth(peril.carHealthConsumed);
-                actions.closeModal();
-              }}
-            >
-              Accept Damage
-            </button>
-          </div>
+          <div className="glassy-info-modal" style={{ width: "14vw" }}>
+            <h1>Superpowers Needed</h1>
+            {coversNeeded.map(e => {
+
+              return <div className="article">
+                <img src={e.imageUrl} alt="keyboard" className={item.includes(e.id) ? "power_available" : "power_unavailable"} />
+              </div>
+
+
+            })}
+            <div style={{display: "flex", marginTop: 20}}>
+              <div className="red-color"></div> Unavailable
+            </div>
+            <div style={{display: "flex", marginTop: 5}}>
+            <div className="green-color"></div> Available
+            </div>
           </div>
         </div>
-      </div>
-        
+
       )}
     </>
 

@@ -164,7 +164,7 @@ export const Experience = () => {
       <Virus position={[-10, 2.5, -119]} />
       <Clock position={[-50, 2, -119]} />
 
-      <ItemBox position={[-30, 2.5, -119]} item= "item2" />
+      
       {/* <PerilBox position={[-40, 2.5, -119]} item= "Peril1" /> */}
       {/* <Bomb position={[-40, 2.5, -119]} item= "Peril2" /> */}
       {renderCovers(covers)}

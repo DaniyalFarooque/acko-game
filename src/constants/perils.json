@@ -2,20 +2,36 @@
     {
         "type": "PERIL",
         "id": "BOMB",
-        "imageUrl": "./images/keyboard.png",
-        "title": "Oops!! Your car got caught in a terrorist attack!!!",
+        "imageUrl": ["./images/bomb-blast.png"],
+        "title": "Catastrophic Event: A bomb threat has caused significant damage",
         "coinsNeeded": 5,
         "carHealthConsumed": 5,
         "lifeHealthConsumed": 5,
         "coveredUnder": [
-            "FIRE_HAZARD_COVER"
+            "FIRE_HAZARD_COVER",
+            "LIFE_COVER",
+            "COVID_COVER"
         ],
         "coordinates": [-40, 2.5, -119]
     },
     {
         "type": "PERIL",
         "id": "TRUCK",
-        "imageUrl": "./images/bomb.jpeg",
+        "imageUrl": ["./images/bomb-blast.png"],
+        "title": "Warning: A collision has occurred!",
+        "coinsNeeded": 5,
+        "carHealthConsumed": 5,
+        "lifeHealthConsumed": 5,
+        "coveredUnder": [
+            "ACCIDENT_COVER"
+        ],
+        "coordinates": [-123.4153060913086, 2.1816978454589844, -117.84522247314453],
+        "rotation": [ 0, 1.571, 0]
+    },
+    {
+        "type": "PERIL",
+        "id": "COVID",
+        "imageUrl": ["./images/bomb-blast.png"],
         "title": "Oops!! Your car got caught in a terrorist attack!!!",
         "coinsNeeded": 5,
         "carHealthConsumed": 5,
@@ -28,9 +44,9 @@
     },
     {
         "type": "PERIL",
-        "id": "TRUCK",
-        "imageUrl": "./images/bomb.jpeg",
-        "title": "Oops!! Your car got caught in a terrorist attack!!!",
+        "id": "COVID",
+        "imageUrl": ["./images/bomb-blast.png"],
+        "title": "Security Breach: Your assets are under threat",
         "coinsNeeded": 5,
         "carHealthConsumed": 5,
         "lifeHealthConsumed": 5,

@@ -6,6 +6,7 @@ import { HUD } from './HUD'
 import { Landing } from './Landing'
 import { InfoModal } from './InfoModal'
 import { useStore } from './components/store'
+import { InformationDialog } from './InformationDialog'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -13,5 +14,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <HUD />
     <Landing />
     <InfoModal />
+    <InformationDialog />
   </React.StrictMode>,
 )
