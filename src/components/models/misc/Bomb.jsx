@@ -44,9 +44,9 @@ export function Bomb(props) {
       sensor
       ref={body}
       onIntersectionEnter={({other}) => {
-        if(other.rigidBodyObject.name === "player"){
+        if(other.rigidBodyObject.name === "player"){  
             actions.openModal();
-        actions.setItem(props.item);
+        actions.addPerils(props.item);
         setScale(0);
         frames.current = 400;
         body.current.setEnabled(false);

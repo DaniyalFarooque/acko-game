@@ -38,6 +38,7 @@ export const useStore = create((set, get) => ({
   isDrifting: false,
   modalOpen: false,
   carHealth: 100,
+  perils: [],
   addPastPosition: (position) => {
     set((state) => ({
       pastPositions: [position, ...state.pastPositions.slice(0, 499)],
@@ -133,9 +134,9 @@ export const useStore = create((set, get) => ({
         coins: state.coins + 1,
       }));
     },
-    looseCoins : () => {
+    looseCoins : (x) => {
       set((state) => ({
-        coins: state.coins - 1,
+        coins: state.coins - x,
       }));
     },
     addPlayer : (player) => {
@@ -199,7 +200,12 @@ export const useStore = create((set, get) => ({
       set((state) => ({
         carHealth: state.carHealth+a,
       }));
-    }
+    },
+    addPerils:(id) => {
+      set((state) => ({
+        perils: [...state.perils, id],
+      }));
+    },
   },
  
 }));

@@ -29,12 +29,12 @@ export function Coin(props) {
       frames.current -= 1 * delta * 144;
 
     }
-    if(frames.current <= 0){
-      setScale(Math.min(scale + 0.5 * delta, 0.424));
-      if(body.current){
-        body.current.setEnable(true);
-      }
-    }
+    // if(frames.current <= 0){
+    //   setScale(Math.min(scale + 0.5 * delta, 0.424));
+    //   if(body.current){
+    //     body.current.setEnable(true);
+    //   }
+    // }
   });
 
   const body = useRef();

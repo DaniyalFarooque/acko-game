@@ -1,9 +1,11 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useStore } from "./components/store";
 import gsap from "gsap";
+import perilsConfig from './constants/perils.json';
+import coverConfig from './constants/covers.json';
 
 export const InfoModal = () => {
-  const { gameStarted, actions, modalOpen } = useStore();
+  const { gameStarted, actions, modalOpen, perils, coins, item } = useStore();
 
   const logo = useRef();
   const startButton = useRef();
@@ -52,35 +54,87 @@ export const InfoModal = () => {
   if (!modalOpen) {
     return null; 
   }
+  const peril = perilsConfig.filter(e => e.id===perils[perils.length-1])[0];
+
+  const coverArray = [];
+  const isClaimAvailable = item.find(e => {
+    let available = false;
+    peril.coveredUnder.map(perilConf => {
+      if(e === perilConf) {
+        available = true;
+        coverArray.push(coverConfig.find(x => x.id === e));
+      }
+    })
+    return available;
+  })
+
+  let coverNameString = coverArray.reduce((acc, item, index) => {
+    if (index === 0) {
+      return item.title; // For the first element, directly return the item.
+    }
+    return acc + ", " + item.title; // Append the current item with a comma separator.
+  }, "");
+  // let coverNameString = coverArray.reduce((e,i) => {
+  //   if(i == 0) {
+  //     return acc;
+  //   }
+  //   return ", " + acc;
+  // }, "", acc)
+  console.log(coverNameString, "asdfasdf")
   return (
     <>
       {modalOpen && (
         <div className="home">
-        <div className="glassy">
-          <h1>THIS IS INFO MODAL</h1>
+        <div className="glassy-info-modal">
+          <h1>{peril.title}</h1>
 
-          <div className="articles">
-          <div className={controlStyle === "keyboard" ? "article selected" : "article"} onClick={() => 
+          <div className="info-modal-image">
+          <div className= "article" onClick={() => 
             setControlStyle("keyboard")}>
-              <img src="./images/keyboard.png" alt="keyboard" />
-              <div className="article_label">
-                <p>Keyboard</p>
-              </div> 
+              <img src={peril.imageUrl} alt="keyboard" />
+             
             </div>
             
           </div>
-          <h1>Oops your car got hit by a bomb</h1>
-          <div className={controlStyle != "" ? "submit" : "submit disabled"}>
+          <h2 style={{textAlign: "center"}}>Your existing coins: {coins}</h2>
+          <h2 style={{textAlign: "center"}}>Damage to car health: {peril.carHealthConsumed}</h2>
+          {isClaimAvailable && 
+            <h2 style={{textAlign: "center"}}>Good for you!! This is already covered under: {coverNameString}</h2>
+          }
+          <div style = {{display: "flex", gap: 30}}>
+          { isClaimAvailable && <div className={"submit"}>
             <button
               className={controlStyle != "" ? "submit-button" : "submit-button disabled"}
               onClick={() => {
-                actions.setControls(controlStyle);
-                actions.setGameStarted(true);
                 actions.closeModal();
               }}
             >
-              CONFIRM
+              CLAIM COVER
             </button>
+          </div>}
+          
+          <div className={coins>=peril.coinsNeeded ? "submit" : "submit disabled"}>
+            <button
+              className={coins>=peril.coinsNeeded ? "submit-button" : "submit-button disabled"}
+              onClick={() => {
+                actions.looseCoins(peril.coinsNeeded)
+                actions.closeModal();
+              }}
+            >
+              Use Coins: {peril.coinsNeeded}
+            </button>
+          </div>
+          <div className={"submit"}>
+            <button
+              className={"submit-button"}
+              onClick={() => {
+                actions.decreaseCarHealth(peril.carHealthConsumed);
+                actions.closeModal();
+              }}
+            >
+              Accept Damage
+            </button>
+          </div>
           </div>
         </div>
       </div>

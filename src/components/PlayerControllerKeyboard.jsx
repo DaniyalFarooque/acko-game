@@ -168,7 +168,7 @@ export const PlayerControllerKeyboard = ({
     // ACCELERATING
     const shouldSlow = actions.getShouldSlowDown();
     if(upPressed) {
-      // console.log(body.current.translation()) // locationnnnnn
+      console.log(body.current.translation()) // locationnnnnn
     }
     if (upPressed && currentSpeed < maxSpeed) {
       // Accelerate the kart within the maximum speed limit

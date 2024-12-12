@@ -158,7 +158,6 @@ export const Experience = () => {
       )}
       {/* <Paris position={[0, 0, 0]} /> */}
       <ParisBis position={[0, 0, 0]} />
-      <ItemBox position={[-20, 2.5, -119]} item= "item1" />
       {/* rotation field updated to shift angle of object */}
       <Truck position={[-20, -2.54, -105]} rotation={[ 0, 1.571, 0]} />
       <Truck position={[-20, -2.54, -130]} />
@@ -167,7 +166,7 @@ export const Experience = () => {
 
       <ItemBox position={[-30, 2.5, -119]} item= "item2" />
       {/* <PerilBox position={[-40, 2.5, -119]} item= "Peril1" /> */}
-      <Bomb position={[-40, 2.5, -119]} item= "Peril2" />
+      {/* <Bomb position={[-40, 2.5, -119]} item= "Peril2" /> */}
       {renderCovers(covers)}
       {renderPerils(perils)}
       {renderCoins(coins)}
@@ -240,15 +239,15 @@ const renderCoins = (coins) => {
 const renderPerils = (perils) => {
   return perils.map(e => {
     switch(e.id) {
-      case "TRUCK":return <ItemBox position={e.coordinates} item={e.id} config={e} />;
-      case "BOMB":return <ItemBox position={e.coordinates} item={e.id} config={e} />;
-      case "TRANSFORMER":return <ItemBox position={e.coordinates} item={e.id} config={e} />;
-      case "MAGNET":return <ItemBox position={e.coordinates} item={e.id} config={e} />;
-      case "BIO_HAZARD":return <ItemBox position={e.coordinates} item={e.id} config={e} />;
-      case "CLOCK":return <ItemBox position={e.coordinates} item={e.id} config={e} />;
-      case "VIRUS":return <ItemBox position={e.coordinates} item={e.id} config={e} />;
-      case "LUNGS":return <ItemBox position={e.coordinates} item={e.id} config={e} />;
-      case "THUNDER":return <ItemBox position={e.coordinates} item={e.id} config={e} />;
+      case "TRUCK":return <Truck position={e.coordinates} item={e.id} config={e} key={e.id} />;
+      case "BOMB":return <Bomb position={e.coordinates} item={e.id} config={e} key={e.id} />;
+      case "TRANSFORMER":return <Bomb position={e.coordinates} item={e.id} config={e} key={e.id} />;
+      case "MAGNET":return <Bomb position={e.coordinates} item={e.id} config={e} key={e.id} />;
+      case "BIO_HAZARD":return <Bomb position={e.coordinates} item={e.id} config={e} key={e.id} />;
+      case "CLOCK":return <Clock position={e.coordinates} item={e.id} config={e} key={e.id} />;
+      case "VIRUS":return <Virus position={e.coordinates} item={e.id} config={e} key={e.id} />;
+      case "LUNGS":return <Bomb position={e.coordinates} item={e.id} config={e} key={e.id} />;
+      case "THUNDER":return <Bomb position={e.coordinates} item={e.id} config={e} key={e.id} />;
       default: return <></>
     }
   })
@@ -256,6 +255,6 @@ const renderPerils = (perils) => {
 
 const renderCovers = (covers) => {
   return covers.map(e => {
-    return <ItemBox position={e.coordinates} item={e.id} config={e} />;
+    return <ItemBox position={e.coordinates} item={e.id} config={e} key={e.key} />;
   })
 }

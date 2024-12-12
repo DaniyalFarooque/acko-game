@@ -1,68 +1,65 @@
 [{
     "type": "COVER",
+    "key": "COVER_1",
     "id": "ACCIDENT_COVER",
     "imageUrl": "./images/bomb.jpeg",
     "title": "Oops!! Your car got caught in a terrorist attack!!!",
-    "coordinates": []
+    "coordinates": [-53.0, 1.99, -123.98]
 },
 {
     "type": "COVER",
+    "key": "COVER_2",
     "id": "FIRE_HAZARD_COVER",
     "imageUrl": "./images/bomb.jpeg",
     "title": "Oops!! Your car got caught in a terrorist attack!!!",
-    "coordinates": []
+    "coordinates": [-71.20452880859375, 2.0111846923828125, -101.02059936523438]
 },{
     "type": "COVER",
+    "key": "COVER_3",
     "id": "ELECTRONIC_COVER",
     "imageUrl": "./images/bomb.jpeg",
     "title": "Oops!! Your car got caught in a terrorist attack!!!",
-    "coordinates": []
+    "coordinates": [-103.89759826660156, 2.011425018310547, -121.03512573242188]
 },{
     "type": "COVER",
+    "key": "COVER_4",
     "id": "ENGINE_PROTECTION_COVER",
     "imageUrl": "./images/bomb.jpeg",
     "title": "Oops!! Your car got caught in a terrorist attack!!!",
-    "coordinates": []
+    "coordinates": [-69.08338165283203, 2.014653205871582, -149.39869689941406]
 },{
     "type": "COVER",
+    "key": "COVER_5",
     "id": "HEALTH_SHIELD",
     "imageUrl": "./images/bomb.jpeg",
     "title": "Oops!! Your car got caught in a terrorist attack!!!",
-    "coordinates": []
+    "coordinates": [48.80733, 1.0204166173, -4.05254]
 },{
     "type": "COVER",
-    "id": "RSA",
-    "imageUrl": "./images/bomb.jpeg",
-    "title": "Oops!! Your car got caught in a terrorist attack!!!",
-    "coordinates": []
-},{
-    "type": "COVER",
+    "key": "COVER_7",
     "id": "BILL_COVER",
     "imageUrl": "./images/bomb.jpeg",
     "title": "Oops!! Your car got caught in a terrorist attack!!!",
-    "coordinates": []
+    "coordinates": [-71.03971099853516, 2.0114662647247314, -92.94075775146484]
 },{
     "type": "COVER",
+    "key": "COVER_8",
     "id": "TIME_SHIELD",
     "imageUrl": "./images/bomb.jpeg",
     "title": "Oops!! Your car got caught in a terrorist attack!!!",
-    "coordinates": []
+    "coordinates": [-136.68533325, 7.010874748, -31.718971252441406]
 },{
     "type": "COVER",
+    "key": "COVER_9",
     "id": "COVID_COVER",
     "imageUrl": "./images/bomb.jpeg",
     "title": "Oops!! Your car got caught in a terrorist attack!!!",
-    "coordinates": []
+    "coordinates": [-13.18533706665, 0.49726709723472, -1.24063909053802]
 },{
     "type": "COVER",
-    "id": "NCR_COVER",
-    "imageUrl": "./images/bomb.jpeg",
-    "title": "Oops!! Your car got caught in a terrorist attack!!!",
-    "coordinates": []
-},{
-    "type": "COVER",
+    "key": "COVER_11",
     "id": "LIFE_COVER",
     "imageUrl": "./images/bomb.jpeg",
     "title": "Oops!! Your car got caught in a terrorist attack!!!",
-    "coordinates": []
+    "coordinates": [47.2438812255, 1.0201334953308105, 5.93079185485]
 }]
