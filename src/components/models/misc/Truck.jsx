@@ -48,6 +48,7 @@ console.log("this is misc truck")
         body.current.setEnabled(false);
         }
       }}
+      rotation={props.rotation}
       position={props.position}
       colliders={false}
     >

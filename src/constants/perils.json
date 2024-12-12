@@ -45,7 +45,7 @@
     },
     {
         "type": "PERIL",
-        "id": "TRUCK",
+        "id": "WATER_TANK",
         "imageUrl": [
             "../public/truck-damage/covid_damage.png"
         ],
@@ -64,7 +64,7 @@
     },
     {
         "type": "PERIL",
-        "id": "TRUCK",
+        "id": "WATER_TANK",
         "imageUrl": [
             "../public/truck-damage/covid_damage.png"
         ],
