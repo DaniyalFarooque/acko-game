@@ -47,8 +47,9 @@ export function Bomb(props) {
         if(other.rigidBodyObject.name === "player"){  
           if(!perilTouched) {
             actions.setInformationDialog("peril")
-          }
+          } else {
             actions.openModal();
+          }
         actions.addPerils(props.item);
         setScale(0);
         frames.current = 400;

@@ -13,30 +13,36 @@ import { useFrame } from '@react-three/fiber';
 export function Truck(props) {
   const { nodes, materials } = useGLTF('./models/misc/truck-transformed.glb')
 
-  const { actions } = useStore();
+  const { actions, perilTouched } = useStore();
   const ref = useRef();
   const [scale, setScale] = React.useState(1);
   const frames = useRef(0);
   const body = useRef();
   useFrame((state, delta) => {
     const time = state.clock.getElapsedTime();
-    if(scale < 1 && frames.current > 0){
-      frames.current -= 1 * delta * 144;
+    // if(scale < 1 && frames.current > 0){
+    //   frames.current -= 1 * delta * 144;
 
-    }
+    // }
   }
   );
-
+console.log("this is misc truck")
   return (
     <>
     <RigidBody type="fixed" name="itemBox"
       sensor
       ref={body}
       onIntersectionEnter={({other}) => {
-        console.log("Intersection entered with: ", other.rigidBodyObject.name);
+        console.log("Intersection entered withasdfasdf: ", other.rigidBodyObject.name);
         if(other.rigidBodyObject.name === "player"){
-        
-        actions.setItem(props.item);
+          console.log("here", perilTouched)
+          if(!perilTouched) {
+            actions.setInformationDialog("peril")
+          } else {
+            actions.openModal();
+          }
+        // actions.setItem(props.item);
+        actions.addPerils(props.item);
         setScale(0);
         frames.current = 400;
         body.current.setEnabled(false);
@@ -45,9 +51,9 @@ export function Truck(props) {
       position={props.position}
       colliders={false}
     >
-    <CuboidCollider args={[1.5, 1.5, 1.5]} />
+    <CuboidCollider args={[20.5, 20.5, 20.5]} />
     </RigidBody>
-    <group ref={ref} position={props.position} rotation={props.rotation} dispose={null} scale={[scale*100,scale*100,scale*100]} >
+    <group ref={ref} position={props.position} rotation={props.rotation} dispose={null} scale={scale*100} >
       <mesh castShadow receiveShadow geometry={nodes.MM_Camion_ParteDelantera.geometry} material={materials.mobile_Camion} position={[0.187, 0.047, 0.052]} rotation={[Math.PI / 2, 0, -1.616]} scale={scale*0.01} />
       <mesh castShadow receiveShadow geometry={nodes.MM_Camion_CristalParabrisas.geometry} material={materials.MM_Camion1} position={[0.199, 0.062, 0.052]} rotation={[Math.PI / 2, 0, -1.616]} scale={scale*0.01} />
       <mesh castShadow receiveShadow geometry={nodes.MM_Camion_RuedaDelantera01.geometry} material={materials.Material} position={[0.205, 0.044, 0.042]} rotation={[Math.PI / 2, 0, -1.616]} scale={scale*0.01} />

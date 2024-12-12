@@ -20,20 +20,20 @@ export function Clock(props) {
   const body = useRef();
   useFrame((state, delta) => {
     const time = state.clock.getElapsedTime();
-    ref.current.position.y = Math.sin(time) * 0.1 + 2.5;
-    ref.current.rotation.x = Math.sin(time) * 0.1;
-    ref.current.rotation.y += delta;
-    ref.current.rotation.z = Math.sin(time) * 0.5;
+    // ref.current.position.y = Math.sin(time) * 0.1 + 2.5;
+    // ref.current.rotation.x = Math.sin(time) * 0.1;
+    // ref.current.rotation.y += delta;
+    // ref.current.rotation.z = Math.sin(time) * 0.5;
     if (scale < 0.6 && frames.current > 0) {
       frames.current -= 1 * delta * 144;
 
     }
-    if (frames.current <= 0) {
-      setScale(Math.min(scale + 0.5 * delta, 0.6));
-      if (body.current) {
-        body.current.setEnabled(true);
-      }
-    }
+    // if (frames.current <= 0) {
+    //   setScale(Math.min(scale + 0.5 * delta, 0.6));
+    //   if (body.current) {
+    //     body.current.setEnabled(true);
+    //   }
+    // }
   }
   );
 
@@ -44,6 +44,7 @@ export function Clock(props) {
       sensor
       ref={body}
       onIntersectionEnter={({other}) => {
+        console.log("Intersection entered with: ", other.rigidBodyObject.name);
         if(other.rigidBodyObject.name === "player"){
 
         // actions.setItem();

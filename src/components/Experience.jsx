@@ -168,9 +168,9 @@ export const Experience = () => {
       {/* <ItemBox position={[-30, 2.5, -119]} item= "item2" /> */}
       {/* <PerilBox position={[-40, 2.5, -119]} item= "Peril1" /> */}
       {/* <Bomb position={[-40, 2.5, -119]} item= "Peril2" /> */}
-      {renderCovers(covers)}
+      {/* {renderCovers(covers)} */}
       {renderPerils(perils)}
-      {renderCoins(coins)}
+      {/* {renderCoins(coins)} */}
       <Skid />
       <Dust />
 

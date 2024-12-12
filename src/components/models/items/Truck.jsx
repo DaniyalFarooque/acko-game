@@ -7,7 +7,9 @@ Files: truck.glb [170.7KB] > /Users/daniyal.farooque/Documents/JSProject/Mario-K
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 export function Truck(props) {
+  
   const { nodes, materials } = useGLTF('./models/misc/truck-transformed.glb')
+  console.log("this is items truck")
   return (
     <group {...props} dispose={null} scale={[100,100,100]} >
       <mesh castShadow receiveShadow geometry={nodes.MM_Camion_ParteDelantera.geometry} material={materials.mobile_Camion} position={[0.187, 0.047, 0.052]} rotation={[Math.PI / 2, 0, -1.616]} scale={0.01} />
