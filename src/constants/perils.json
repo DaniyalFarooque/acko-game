@@ -1,0 +1,119 @@
+[
+    {
+        "type": "PERIL",
+        "id": "TRUCK",
+        "imageUrl": "./images/bomb.jpeg",
+        "title": "Oops!! Your car got caught in a terrorist attack!!!",
+        "coinsNeeded": 5,
+        "carHealthConsumed": 5,
+        "lifeHealthConsumed": 5,
+        "coveredUnder": [
+            "ACCIDENT_COVER"
+        ],
+        "coordinates": []
+    },
+    {
+        "type": "PERIL",
+        "id": "BOMB",
+        "imageUrl": "./images/bomb.jpeg",
+        "title": "Oops!! Your car got caught in a terrorist attack!!!",
+        "coinsNeeded": 5,
+        "carHealthConsumed": 5,
+        "lifeHealthConsumed": 5,
+        "coveredUnder": [
+            "FIRE_HAZARD_COVER"
+        ],
+        "coordinates": []
+    },
+    {
+        "type": "PERIL",
+        "id": "TRANSFORMER",
+        "imageUrl": "./images/bomb.jpeg",
+        "title": "Oops!! Your car got caught in a terrorist attack!!!",
+        "coinsNeeded": 5,
+        "carHealthConsumed": 5,
+        "lifeHealthConsumed": 5,
+        "coveredUnder": [
+            "ELECTRONIC_COVER"
+        ],
+        "coordinates": []
+    },
+    {
+        "type": "PERIL",
+        "id": "MAGNET",
+        "imageUrl": "./images/bomb.jpeg",
+        "title": "Oops!! Your car got caught in a terrorist attack!!!",
+        "coinsNeeded": 5,
+        "carHealthConsumed": 5,
+        "lifeHealthConsumed": 5,
+        "coveredUnder": [
+            "ENGINE_PROTECTION_COVER"
+        ],
+        "coordinates": []
+    },
+    {
+        "type": "PERIL",
+        "id": "BIO_HAZARD",
+        "imageUrl": "./images/bomb.jpeg",
+        "title": "Oops!! Your car got caught in a terrorist attack!!!",
+        "coinsNeeded": 5,
+        "carHealthConsumed": 5,
+        "lifeHealthConsumed": 5,
+        "coveredUnder": [
+            "HEALTH_SHIELD"
+        ],
+        "coordinates": []
+    },
+    {
+        "type": "PERIL",
+        "id": "CLOCK",
+        "imageUrl": "./images/bomb.jpeg",
+        "title": "Oops!! Your car got caught in a terrorist attack!!!",
+        "coinsNeeded": 5,
+        "carHealthConsumed": 5,
+        "lifeHealthConsumed": 5,
+        "coveredUnder": [
+            "TIME_SHIELD"
+        ],
+        "coordinates": []
+    },
+    {
+        "type": "PERIL",
+        "id": "VIRUS",
+        "imageUrl": "./images/bomb.jpeg",
+        "title": "Oops!! Your car got caught in a terrorist attack!!!",
+        "coinsNeeded": 5,
+        "carHealthConsumed": 5,
+        "lifeHealthConsumed": 5,
+        "coveredUnder": [
+            "COVID_COVER"
+        ],
+        "coordinates": []
+    },
+    {
+        "type": "PERIL",
+        "id": "LUNGS",
+        "imageUrl": "./images/bomb.jpeg",
+        "title": "Oops!! Your car got caught in a terrorist attack!!!",
+        "coinsNeeded": 5,
+        "carHealthConsumed": 5,
+        "lifeHealthConsumed": 5,
+        "coveredUnder": [
+            "NCR_COVER"
+        ],
+        "coordinates": []
+    },
+    {
+        "type": "PERIL",
+        "id": "THUNDER",
+        "imageUrl": "./images/bomb.jpeg",
+        "title": "Oops!! Your car got caught in a terrorist attack!!!",
+        "coinsNeeded": 5,
+        "carHealthConsumed": 5,
+        "lifeHealthConsumed": 5,
+        "coveredUnder": [
+            "LIFE_COVER"
+        ],
+        "coordinates": []
+    }
+]

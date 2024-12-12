@@ -46,6 +46,9 @@ import { Skid } from "./Skid";
 import { Dust } from "./Dust";
 import { PerilBox } from "./models/misc/Peril";
 import { Bomb } from "./models/misc/Bomb";
+import covers from "../constants/covers.json";
+import perils from "../constants/perils.json";
+import coins from "../constants/coins.json";
 
 export const Experience = () => {
   const onCollide = (event) => {};
@@ -151,22 +154,14 @@ export const Experience = () => {
         </>
       )}
       {/* <Paris position={[0, 0, 0]} /> */}
-
       <ParisBis position={[0, 0, 0]} />
       <ItemBox position={[-20, 2.5, -119]} item= "item1" />
       <ItemBox position={[-30, 2.5, -119]} item= "item2" />
       {/* <PerilBox position={[-40, 2.5, -119]} item= "Peril1" /> */}
       <Bomb position={[-40, 2.5, -119]} item= "Peril2" />
-      <Coin position={[-30, 2, -119]} />
-      <Coin position={[-40, 2, -119]} />
-      <Coin position={[-63.02451705932617,
-2.020824432373047,
--138.7223358154297]} />
-      <Coin position={[-57.08365249633789,2.0207371711730957,  -138.6467742919922]} />
-    
-      <Coin position={[36.30873489379883,
-2.020817279815674,
--198.94985961914062]} />
+      {renderCovers(covers)}
+      {renderPerils(perils)}
+      {renderCoins(coins)}
       <Skid />
       <Dust />
 
@@ -226,3 +221,32 @@ export const Experience = () => {
     </>
   );
 };
+
+const renderCoins = (coins) => {
+  return coins.map(e => {
+    return <Coin position={e.coordinates} key={e.id} />
+  })
+}
+
+const renderPerils = (perils) => {
+  return perils.map(e => {
+    switch(e.id) {
+      case "TRUCK":return <ItemBox position={e.coordinates} item={e.id} config={e} />;
+      case "BOMB":return <ItemBox position={e.coordinates} item={e.id} config={e} />;
+      case "TRANSFORMER":return <ItemBox position={e.coordinates} item={e.id} config={e} />;
+      case "MAGNET":return <ItemBox position={e.coordinates} item={e.id} config={e} />;
+      case "BIO_HAZARD":return <ItemBox position={e.coordinates} item={e.id} config={e} />;
+      case "CLOCK":return <ItemBox position={e.coordinates} item={e.id} config={e} />;
+      case "VIRUS":return <ItemBox position={e.coordinates} item={e.id} config={e} />;
+      case "LUNGS":return <ItemBox position={e.coordinates} item={e.id} config={e} />;
+      case "THUNDER":return <ItemBox position={e.coordinates} item={e.id} config={e} />;
+      default: return <></>
+    }
+  })
+}
+
+const renderCovers = (covers) => {
+  return covers.map(e => {
+    return <ItemBox position={e.coordinates} item={e.id} config={e} />;
+  })
+}

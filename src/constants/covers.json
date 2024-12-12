@@ -1,0 +1,68 @@
+[{
+    "type": "COVER",
+    "id": "ACCIDENT_COVER",
+    "imageUrl": "./images/bomb.jpeg",
+    "title": "Oops!! Your car got caught in a terrorist attack!!!",
+    "coordinates": []
+},
+{
+    "type": "COVER",
+    "id": "FIRE_HAZARD_COVER",
+    "imageUrl": "./images/bomb.jpeg",
+    "title": "Oops!! Your car got caught in a terrorist attack!!!",
+    "coordinates": []
+},{
+    "type": "COVER",
+    "id": "ELECTRONIC_COVER",
+    "imageUrl": "./images/bomb.jpeg",
+    "title": "Oops!! Your car got caught in a terrorist attack!!!",
+    "coordinates": []
+},{
+    "type": "COVER",
+    "id": "ENGINE_PROTECTION_COVER",
+    "imageUrl": "./images/bomb.jpeg",
+    "title": "Oops!! Your car got caught in a terrorist attack!!!",
+    "coordinates": []
+},{
+    "type": "COVER",
+    "id": "HEALTH_SHIELD",
+    "imageUrl": "./images/bomb.jpeg",
+    "title": "Oops!! Your car got caught in a terrorist attack!!!",
+    "coordinates": []
+},{
+    "type": "COVER",
+    "id": "RSA",
+    "imageUrl": "./images/bomb.jpeg",
+    "title": "Oops!! Your car got caught in a terrorist attack!!!",
+    "coordinates": []
+},{
+    "type": "COVER",
+    "id": "BILL_COVER",
+    "imageUrl": "./images/bomb.jpeg",
+    "title": "Oops!! Your car got caught in a terrorist attack!!!",
+    "coordinates": []
+},{
+    "type": "COVER",
+    "id": "TIME_SHIELD",
+    "imageUrl": "./images/bomb.jpeg",
+    "title": "Oops!! Your car got caught in a terrorist attack!!!",
+    "coordinates": []
+},{
+    "type": "COVER",
+    "id": "COVID_COVER",
+    "imageUrl": "./images/bomb.jpeg",
+    "title": "Oops!! Your car got caught in a terrorist attack!!!",
+    "coordinates": []
+},{
+    "type": "COVER",
+    "id": "NCR_COVER",
+    "imageUrl": "./images/bomb.jpeg",
+    "title": "Oops!! Your car got caught in a terrorist attack!!!",
+    "coordinates": []
+},{
+    "type": "COVER",
+    "id": "LIFE_COVER",
+    "imageUrl": "./images/bomb.jpeg",
+    "title": "Oops!! Your car got caught in a terrorist attack!!!",
+    "coordinates": []
+}]
