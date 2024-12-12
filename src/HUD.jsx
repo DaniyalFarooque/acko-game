@@ -60,6 +60,19 @@ export const HUD = () => {
     <div className="overlay">
       {gameStarted && (
         <>
+        <div >
+      <div className="item">
+                <div className="borderOut">
+                  <div className="borderIn">
+                    <div className="background">
+                    <div className="coinClass">
+            <img src="./images/coin.png" alt="item" width={50} /> <div className="coinText">{coins}</div>
+            </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
             {item.map(e => {
               return (<div className="item">
                 <div className="borderOut">
@@ -72,9 +85,6 @@ export const HUD = () => {
               </div>)
             })
             }
-            <div className="coinClass">
-            <img src="./images/coin.png" alt="item" width={90} /> {coins}
-            </div>
             {controls === "touch" && (
               <>
                 <div className="controls joystick">
@@ -148,7 +158,6 @@ export const HUD = () => {
                 </div>
               </>
             )}
-          
         </>
       )}
     </div>

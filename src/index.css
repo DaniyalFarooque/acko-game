@@ -39,13 +39,11 @@ body::-webkit-scrollbar {
   display: flex;
   gap: 10px;
   margin-left: 75px;
-  width: 100%;
 }
-.coinClass {
-
-  position: absolute;
-  right: 100px;
-
+.coinText{
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
 }
 /* .overlay {
   position: absolute;
