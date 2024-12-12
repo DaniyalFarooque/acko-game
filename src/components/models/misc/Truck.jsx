@@ -20,9 +20,6 @@ export function Truck(props) {
   const body = useRef();
   useFrame((state, delta) => {
     const time = state.clock.getElapsedTime();
-    console.log('truck scale', scale)
-    console.log('ref', ref)
-
     if(scale < 1 && frames.current > 0){
       frames.current -= 1 * delta * 144;
 
@@ -36,6 +33,7 @@ export function Truck(props) {
       sensor
       ref={body}
       onIntersectionEnter={({other}) => {
+        console.log("Intersection entered with: ", other.rigidBodyObject.name);
         if(other.rigidBodyObject.name === "player"){
         
         actions.setItem(props.item);
@@ -49,7 +47,7 @@ export function Truck(props) {
     >
     <CuboidCollider args={[1.5, 1.5, 1.5]} />
     </RigidBody>
-    <group ref={ref} {...props} dispose={null} scale={[scale*100,scale*100,scale*100]} >
+    <group ref={ref} position={props.position} rotation={props.rotation} dispose={null} scale={[scale*100,scale*100,scale*100]} >
       <mesh castShadow receiveShadow geometry={nodes.MM_Camion_ParteDelantera.geometry} material={materials.mobile_Camion} position={[0.187, 0.047, 0.052]} rotation={[Math.PI / 2, 0, -1.616]} scale={scale*0.01} />
       <mesh castShadow receiveShadow geometry={nodes.MM_Camion_CristalParabrisas.geometry} material={materials.MM_Camion1} position={[0.199, 0.062, 0.052]} rotation={[Math.PI / 2, 0, -1.616]} scale={scale*0.01} />
       <mesh castShadow receiveShadow geometry={nodes.MM_Camion_RuedaDelantera01.geometry} material={materials.Material} position={[0.205, 0.044, 0.042]} rotation={[Math.PI / 2, 0, -1.616]} scale={scale*0.01} />
