@@ -27,6 +27,7 @@ import { ItemBox } from "./models/misc/Gift";
 import { Clock } from "./models/misc/Clock";
 import { Truck } from "./models/misc/Truck";
 import { Virus } from "./models/misc/Corona_virus";
+import { Elevated_Corona_virus } from "./models/misc/Elevated_Corona_virus";
 import { useStore } from "./store";
 import { Shell } from "./models/items/Mario_shell_red";
 import { Coin } from "./models/misc/Super_mario_bros_coin";
@@ -159,12 +160,12 @@ export const Experience = () => {
       {/* <Paris position={[0, 0, 0]} /> */}
       <ParisBis position={[0, 0, 0]} />
       {/* rotation field updated to shift angle of object */}
-      <Truck position={[-20, -2.54, -105]} rotation={[ 0, 1.571, 0]} />
-      <Truck position={[-20, -2.54, -130]} />
-      <Virus position={[-10, 2.5, -119]} />
-      <Clock position={[-50, 2, -119]} />
+      {/* <Truck position={[-20, -2.54, -105]} rotation={[ 0, 1.571, 0]} /> */}
+      {/* <Truck position={[-20, -2.54, -130]} /> */}
+      {/* <Virus position={[-10, 2.5, -119]} /> */}
+      {/* <Clock position={[-50, 2, -119]} /> */}
 
-      <ItemBox position={[-30, 2.5, -119]} item= "item2" />
+      {/* <ItemBox position={[-30, 2.5, -119]} item= "item2" /> */}
       {/* <PerilBox position={[-40, 2.5, -119]} item= "Peril1" /> */}
       {/* <Bomb position={[-40, 2.5, -119]} item= "Peril2" /> */}
       {renderCovers(covers)}
@@ -239,13 +240,15 @@ const renderCoins = (coins) => {
 const renderPerils = (perils) => {
   return perils.map(e => {
     switch(e.id) {
-      case "TRUCK":return <Truck position={e.coordinates} item={e.id} config={e} key={e.id} />;
+      case "TRUCK":return <Truck position={e.coordinates} rotation={e.rotation} item={e.id} config={e} key={e.id} />;
       case "BOMB":return <Bomb position={e.coordinates} item={e.id} config={e} key={e.id} />;
       case "TRANSFORMER":return <Bomb position={e.coordinates} item={e.id} config={e} key={e.id} />;
       case "MAGNET":return <Bomb position={e.coordinates} item={e.id} config={e} key={e.id} />;
       case "BIO_HAZARD":return <Bomb position={e.coordinates} item={e.id} config={e} key={e.id} />;
       case "CLOCK":return <Clock position={e.coordinates} item={e.id} config={e} key={e.id} />;
       case "VIRUS":return <Virus position={e.coordinates} item={e.id} config={e} key={e.id} />;
+      case "ELEVATED_VIRUS":return <Elevated_Corona_virus position={e.coordinates} item={e.id} config={e} key={e.id} />;
+      
       case "LUNGS":return <Bomb position={e.coordinates} item={e.id} config={e} key={e.id} />;
       case "THUNDER":return <Bomb position={e.coordinates} item={e.id} config={e} key={e.id} />;
       default: return <></>

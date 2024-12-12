@@ -1,32 +1,2389 @@
-[{
-    "type": "COIN",
-    "id": "COIN_1",
-    "imageUrl": "./images/bomb.jpeg",
-    "coinToAdd": 1,
-    "coordinates": [-30, 2, -119]
-},
-{
-    "type": "COIN",
-    "id": "COIN_2",
-    "imageUrl": "./images/bomb.jpeg",
-    "coinToAdd": 1,
-    "coordinates": [-40, 2, -119]
-},{
-    "type": "COIN",
-    "id": "COIN_3",
-    "imageUrl": "./images/bomb.jpeg",
-    "coinToAdd": 1,
-    "coordinates": [-63.02451705932617, 2.020824432373047, -138.7223358154297]
-},{
-    "type": "COIN",
-    "id": "COIN_4",
-    "imageUrl": "./images/bomb.jpeg",
-    "coinToAdd": 1,
-    "coordinates": [-57.08365249633789,2.0207371711730957,  -138.6467742919922]
-},{
-    "type": "COIN",
-    "id": "COIN_5",
-    "imageUrl": "./images/bomb.jpeg",
-    "coinToAdd": 1,
-    "coordinates": [36.30873489379883, 2.020817279815674, -198.94985961914062]
-}]
+[
+    {
+        "type": "COIN",
+        "id": "COIN_0",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -10,
+            2.5,
+            -116
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_1",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -12,
+            2.5,
+            -116
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_2",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -14,
+            2.5,
+            -116
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_3",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -16,
+            2.5,
+            -116
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_4",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -18,
+            2.5,
+            -116
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_6",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -22,
+            2.5,
+            -116
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_7",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -24,
+            2.5,
+            -116
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_8",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -26,
+            2.5,
+            -116
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_9",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -28,
+            2.5,
+            -116
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_10",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -10,
+            2.5,
+            -120
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_11",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -12,
+            2.5,
+            -120
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_12",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -14,
+            2.5,
+            -120
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_13",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -16,
+            2.5,
+            -120
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_14",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -18,
+            2.5,
+            -120
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_16",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -22,
+            2.5,
+            -120
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_17",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -24,
+            2.5,
+            -120
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_18",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -26,
+            2.5,
+            -120
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_19",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -28,
+            2.5,
+            -120
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_20",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -10,
+            2.5,
+            -124
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_21",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -12,
+            2.5,
+            -124
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_22",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -14,
+            2.5,
+            -124
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_23",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -16,
+            2.5,
+            -124
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_24",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -18,
+            2.5,
+            -124
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_26",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -22,
+            2.5,
+            -124
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_27",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -24,
+            2.5,
+            -124
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_28",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -26,
+            2.5,
+            -124
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_29",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -28,
+            2.5,
+            -124
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_30",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -55.0,
+            2.8099,
+            -119.68
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_31",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -57.0,
+            2.8099,
+            -119.68
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_32",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -59.0,
+            2.8099,
+            -119.68
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_33",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -61.0,
+            2.8099,
+            -119.68
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_34",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -63.0,
+            2.8099,
+            -119.68
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_35",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -65.0,
+            2.8099,
+            -119.68
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_36",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -67.0,
+            2.8099,
+            -119.68
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_37",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -103.23036193847656,
+            2.017521381378174,
+            -119.9096908569336
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_38",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -103.62863159179688,
+            2.018857955932617,
+            -119.91791534423828
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_39",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -104.2265396118164,
+            2.0188331604003906,
+            -119.93024444580078
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_40",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -106.5842514038086,
+            2.0188608169555664,
+            -119.97883605957031
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_41",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -107.51995086669922,
+            2.0179436206817627,
+            -119.99813842773438
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_42",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -108.60404205322266,
+            2.020709991455078,
+            -120.0212631225586
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_43",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -111.24520111083984,
+            2.051146984100342,
+            -120.07645416259766
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_44",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -112.65313720703125,
+            2.0650970935821533,
+            -120.10554504394531
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_45",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -113.75384521484375,
+            2.072810173034668,
+            -120.14569854736328
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_46",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -114.85263061523438,
+            2.078941822052002,
+            -120.1769027709961
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_47",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -115.94300842285156,
+            2.084728956222534,
+            -120.19883728027344
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -117.04568481445312,
+            2.0904622077941895,
+            -120.2219467163086
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -98.94095611572266,
+            6.008392333984375,
+            -1.4441418647766113
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -96.48882293701172,
+            5.81144905090332,
+            -0.9949588775634766
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -95.00716400146484,
+            5.690618515014648,
+            -0.7837998867034912
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -91.86430358886719,
+            5.44944953918457,
+            -0.5379109382629395
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -91.19174194335938,
+            5.400142669677734,
+            -0.5020592212677002
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -88.9887924194336,
+            5.253898620605469,
+            -0.39024877548217773
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -87.7265396118164,
+            5.174572467803955,
+            -0.3314378261566162
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -86.25104522705078,
+            5.091062545776367,
+            -0.2624037265777588
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -84.77204895019531,
+            5.014922142028809,
+            -0.21811223030090332
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -83.01074981689453,
+            4.929429054260254,
+            -0.21623921394348145
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -82.19609069824219,
+            4.894987106323242,
+            -0.21545124053955078
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -80.410400390625,
+            4.819110870361328,
+            -0.21370649337768555
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -78.94493865966797,
+            4.767789840698242,
+            -0.21228480339050293
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -74.68235778808594,
+            4.6294965744018555,
+            -0.20867013931274414
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -73.22557067871094,
+            4.586299896240234,
+            -0.2075357437133789
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -72.28443145751953,
+            4.566591262817383,
+            -0.2067737579345703
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -71.29485321044922,
+            4.546058177947998,
+            -0.2059776782989502
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -70.3631362915039,
+            4.526678085327148,
+            -0.20522785186767578
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -68.4480972290039,
+            4.51893424987793,
+            -0.20386672019958496
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -66.98934173583984,
+            4.519155502319336,
+            -0.2026820182800293
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -65.8702163696289,
+            4.518972396850586,
+            -0.20177340507507324
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -63.3322868347168,
+            4.518900394439697,
+            -0.19971227645874023
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -62.403656005859375,
+            4.518928527832031,
+            -0.1989579200744629
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -61.14497756958008,
+            4.518283843994141,
+            -0.1979355812072754
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -60.26719284057617,
+            4.518978595733643,
+            -0.19722223281860352
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -59.235633850097656,
+            4.518972396850586,
+            -0.19638419151306152
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -57.76543045043945,
+            4.518964767456055,
+            -0.1951901912689209
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -53.118873596191406,
+            4.51893949508667,
+            -0.19141554832458496
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -51.8034782409668,
+            4.518985748291016,
+            -0.1903470754623413
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -46.21731948852539,
+            5.019646167755127,
+            -0.18537849187850952
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -45.40756607055664,
+            5.018754005432129,
+            -0.18449831008911133
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -42.50765609741211,
+            5.019474029541016,
+            -0.18214285373687744
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -37.24006271362305,
+            2.0202460289001465,
+            -0.17786413431167603
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -36.25990295410156,
+            2.0202674865722656,
+            -0.17706787586212158
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -33.737953186035156,
+            2.020395278930664,
+            -0.17501944303512573
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -30.319473266601562,
+            2.0193920135498047,
+            -0.17224270105361938
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -27.53142547607422,
+            2.0194594860076904,
+            -0.1699780970811844
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -27.15696144104004,
+            2.0193002223968506,
+            -0.16967396438121796
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -21.822500228881836,
+            2.7658019065856934,
+            -0.16716927289962769
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -20.580522537231445,
+            2.938394546508789,
+            -0.16608268022537231
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -17.63898277282715,
+            1.3513646125793457,
+            -0.16369327902793884
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -12.27225112915039,
+            0.49452781677246094,
+            -0.15722346305847168
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -2.3013930320739746,
+            0.4943443536758423,
+            -0.14911703765392303
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            0.16097292304039001,
+            0.49473074078559875,
+            -0.14711689949035645
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            3.6164166927337646,
+            0.49496006965637207,
+            -0.1443101018667221
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            6.4347944259643555,
+            1.4981212615966797,
+            -0.12363623082637787
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            11.959166526794434,
+            3.5491695404052734,
+            -0.1199701800942421
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            27.355716705322266,
+            1.0887409448623657,
+            -0.10487005859613419
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            28.824926376342773,
+            1.0187044143676758,
+            -0.10367675125598907
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            31.207529067993164,
+            1.0194149017333984,
+            -0.10174141824245453
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            41.24041748046875,
+            1.0188465118408203,
+            -0.09359189867973328
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            43.19672393798828,
+            1.0191173553466797,
+            -0.09200283139944077
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            48.826026916503906,
+            1.018747091293335,
+            -0.08743024617433548
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            49.62685775756836,
+            1.0187788009643555,
+            -0.08677972108125687
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            51.6991081237793,
+            1.0187610387802124,
+            -0.08509645611047745
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            53.12972640991211,
+            1.0188004970550537,
+            -0.08393436670303345
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            53.725975036621094,
+            1.01877760887146,
+            -0.08345004171133041
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            55.157554626464844,
+            1.0187466144561768,
+            -0.08228719979524612
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            56.000022888183594,
+            1.0187244415283203,
+            -0.08160287141799927
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            57.25928497314453,
+            1.061692237854004,
+            -0.08062276244163513
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            60.305992126464844,
+            1.0187125205993652,
+            -0.07807305455207825
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            61.731597900390625,
+            1.0187773704528809,
+            -0.07691507041454315
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            62.59791946411133,
+            1.018786072731018,
+            -0.07621137797832489
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            63.562625885009766,
+            1.0187158584594727,
+            -0.07542776316404343
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            64.37785339355469,
+            1.0187292098999023,
+            -0.07476557791233063
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            66.48248291015625,
+            1.0188560485839844,
+            -0.07305601239204407
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            69.75860595703125,
+            1.0192337036132812,
+            -0.07039487361907959
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            82.0131607055664,
+            1.019256353378296,
+            -0.060318224132061005
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            82.83041381835938,
+            1.0187740325927734,
+            -0.059654369950294495
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            86.69532012939453,
+            1.0187468528747559,
+            -0.05651464685797691
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            87.82711029052734,
+            1.0187911987304688,
+            -0.055595189332962036
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            93.85856628417969,
+            1.0185375213623047,
+            -0.05069594085216522
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            95.18022155761719,
+            1.0185928344726562,
+            -0.04962235316634178
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            97.96086120605469,
+            1.0189323425292969,
+            -0.047363489866256714
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            102.16961669921875,
+            1.018798828125,
+            -0.04394479840993881
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            111.68274688720703,
+            1.0189056396484375,
+            -0.03621750697493553
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            113.47351837158203,
+            1.0189857482910156,
+            -0.03476269543170929
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            117.29115295410156,
+            1.0187931060791016,
+            -0.031661245971918106
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            119.08573150634766,
+            1.0187568664550781,
+            -0.030203506350517273
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            122.7311782836914,
+            1.0187492370605469,
+            -0.027242202311754227
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            125.20296478271484,
+            1.0187244415283203,
+            -0.025233760476112366
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            126.4458999633789,
+            1.0186595916748047,
+            -0.02422381564974785
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            127.7992935180664,
+            1.0186922550201416,
+            -0.02312404289841652
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            128.6251983642578,
+            1.0187292098999023,
+            -0.022452939301729202
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            129.94032287597656,
+            1.0185741186141968,
+            -0.021384429186582565
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            130.72476196289062,
+            1.0187740325927734,
+            -0.020747069269418716
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            131.74005126953125,
+            1.0185737609863281,
+            -0.01992208883166313
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_1",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -30,
+            2,
+            -119
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_2",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -40,
+            2,
+            -119
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_3",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -63.02451705932617,
+            2.020824432373047,
+            -138.7223358154297
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_4",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -57.08365249633789,
+            2.0207371711730957,
+            -138.6467742919922
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_5",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            36.30873489379883,
+            2.020817279815674,
+            -198.94985961914062
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-142.04354858398438",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -142.04354858398438,
+            2.745713710784912,
+            -115.9635238647461
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-142.70025634765625",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -142.70025634765625,
+            2.7697219848632812,
+            -115.3092041015625
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-143.7086639404297",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -143.7086639404297,
+            2.8088250160217285,
+            -114.24827575683594
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-144.95632934570312",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -144.95632934570312,
+            2.8654932975769043,
+            -112.76180267333984
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-146.29519653320312",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -146.29519653320312,
+            2.9408860206604004,
+            -110.83367156982422
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-146.79798889160156",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -146.79798889160156,
+            2.995356559753418,
+            -109.97370910644531
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-147.88523864746094",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -147.88523864746094,
+            3.1423168182373047,
+            -107.65145111083984
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-148.77806091308594",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -148.77806091308594,
+            3.369110107421875,
+            -103.84715270996094
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-148.86495971679688",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -148.86495971679688,
+            3.4496402740478516,
+            -102.42212677001953
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-148.84146118164062",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -148.84146118164062,
+            3.4864559173583984,
+            -101.75652313232422
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-148.7850799560547",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -148.7850799560547,
+            3.571542739868164,
+            -100.22395324707031
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-148.7373504638672",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -148.7373504638672,
+            3.6500282287597656,
+            -98.8118896484375
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-148.6772003173828",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -148.6772003173828,
+            3.7516708374023438,
+            -97.00732421875
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-148.68687438964844",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -148.68687438964844,
+            3.970771551132202,
+            -93.1121597290039
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-148.70428466796875",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -148.70428466796875,
+            4.008768081665039,
+            -92.44322204589844
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-148.75543212890625",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -148.75543212890625,
+            4.124797821044922,
+            -90.41006469726562
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-148.87095642089844",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -148.87095642089844,
+            4.3958587646484375,
+            -85.6833267211914
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-148.8480224609375",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -148.8480224609375,
+            4.480660915374756,
+            -84.20655059814453
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-148.7908935546875",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -148.7908935546875,
+            4.5468902587890625,
+            -83.05243682861328
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-148.69955444335938",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -148.69955444335938,
+            4.629203796386719,
+            -81.613525390625
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-148.62640380859375",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -148.62640380859375,
+            4.6950249671936035,
+            -80.46368408203125
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-148.5518341064453",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -148.5518341064453,
+            4.761653423309326,
+            -79.2833251953125
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-148.50308227539062",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -148.50308227539062,
+            4.799074172973633,
+            -78.62051391601562
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-148.2353973388672",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -148.2353973388672,
+            5.00120210647583,
+            -75.00362396240234
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-148.13095092773438",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -148.13095092773438,
+            5.079988479614258,
+            -73.58645629882812
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-148.0227813720703",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -148.0227813720703,
+            5.142126083374023,
+            -72.42158508300781
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-147.93067932128906",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -147.93067932128906,
+            5.194855690002441,
+            -71.4415054321289
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-147.7819061279297",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -147.7819061279297,
+            5.278759002685547,
+            -69.87210845947266
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-147.6214141845703",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -147.6214141845703,
+            5.353402137756348,
+            -68.44483947753906
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-147.47109985351562",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -147.47109985351562,
+            5.413661003112793,
+            -67.29411315917969
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-147.27053833007812",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -147.27053833007812,
+            5.486247539520264,
+            -65.87861633300781
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-147.13523864746094",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -147.13523864746094,
+            5.527544021606445,
+            -65.0630111694336
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-146.4901885986328",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -146.4901885986328,
+            5.721797466278076,
+            -61.16001892089844
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-146.2077178955078",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -146.2077178955078,
+            5.804643154144287,
+            -59.44755554199219
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-145.98611450195312",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -145.98611450195312,
+            5.858523368835449,
+            -58.30976867675781
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-145.79437255859375",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -145.79437255859375,
+            5.905038833618164,
+            -57.32573699951172
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-144.78297424316406",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -144.78297424316406,
+            6.138221263885498,
+            -52.18706130981445
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-144.64422607421875",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -144.64422607421875,
+            6.161565780639648,
+            -51.65057373046875
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-144.2865753173828",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -144.2865753173828,
+            6.223100662231445,
+            -50.259315490722656
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-143.88389587402344",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -143.88389587402344,
+            6.287918567657471,
+            -48.76112365722656
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-143.6168975830078",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -143.6168975830078,
+            6.325998783111572,
+            -47.88006591796875
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-143.17431640625",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -143.17431640625,
+            6.385392665863037,
+            -46.51378631591797
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-142.8603057861328",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -142.8603057861328,
+            6.426143646240234,
+            -45.558963775634766
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-142.2665557861328",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -142.2665557861328,
+            6.5023932456970215,
+            -43.7743034362793
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-141.90292358398438",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -141.90292358398438,
+            6.54542350769043,
+            -42.78036880493164
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-141.34071350097656",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -141.34071350097656,
+            6.609992027282715,
+            -41.28813934326172
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-141.10406494140625",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -141.10406494140625,
+            6.635690689086914,
+            -40.69517517089844
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-140.46054077148438",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -140.46054077148438,
+            6.7051897048950195,
+            -39.115726470947266
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-140.05906677246094",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -140.05906677246094,
+            6.747973442077637,
+            -38.14125061035156
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-139.37265014648438",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -139.37265014648438,
+            6.814010143280029,
+            -36.66674041748047
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-138.8612823486328",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -138.8612823486328,
+            6.860143184661865,
+            -35.61365509033203
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-138.4869842529297",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -138.4869842529297,
+            6.894010543823242,
+            -34.842750549316406
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-138.19627380371094",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -138.19627380371094,
+            6.920173645019531,
+            -34.244136810302734
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-136.8186492919922",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -136.8186492919922,
+            7.035645484924316,
+            -31.404829025268555
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-136.4548797607422",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -136.4548797607422,
+            7.064733505249023,
+            -30.651153564453125
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-135.2588653564453",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -135.2588653564453,
+            7.1441802978515625,
+            -28.392194747924805
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-134.54995727539062",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -134.54995727539062,
+            7.181328296661377,
+            -27.249731063842773
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-134.12208557128906",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -134.12208557128906,
+            7.1996750831604,
+            -26.640365600585938
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-133.4068603515625",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -133.4068603515625,
+            7.229907989501953,
+            -25.64508056640625
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-132.8292999267578",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -132.8292999267578,
+            7.252330303192139,
+            -24.841028213500977
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-132.25572204589844",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -132.25572204589844,
+            7.268459320068359,
+            -24.042097091674805
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-131.6773223876953",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -131.6773223876953,
+            7.2859296798706055,
+            -23.236494064331055
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-130.47882080078125",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -130.47882080078125,
+            7.314324855804443,
+            -21.566974639892578
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_-130.07681274414062",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            -130.07681274414062,
+            7.320568084716797,
+            -21.02988052368164
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            142.61619567871094,
+            1.018735408782959,
+            -18.84973907470703
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            142.4710235595703,
+            1.0192193984985352,
+            -20.807342529296875
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            142.23524475097656,
+            1.0191802978515625,
+            -23.986572265625
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            142.1055450439453,
+            1.019195556640625,
+            -28.48366355895996
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            142.81057739257812,
+            1.0191802978515625,
+            -38.08342742919922
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            143.1806182861328,
+            1.019256591796875,
+            -42.91743087768555
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            143.12420654296875,
+            1.1162147521972656,
+            -46.97504425048828
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            142.46319580078125,
+            1.509232521057129,
+            -51.141414642333984
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            141.70413208007812,
+            1.9287681579589844,
+            -55.704105377197266
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            141.31642150878906,
+            2.015960693359375,
+            -61.41928482055664
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            141.81362915039062,
+            2.0193557739257812,
+            -70.60783386230469
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            142.1629638671875,
+            2.0193405151367188,
+            -76.61221313476562
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            142.53945922851562,
+            2.019317626953125,
+            -83.08299255371094
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            142.6186981201172,
+            2.019683837890625,
+            -89.35835266113281
+        ]
+    },
+    {
+        "type": "COIN",
+        "id": "COIN_48",
+        "imageUrl": "./images/bomb.jpeg",
+        "coinToAdd": 1,
+        "coordinates": [
+            141.43508911132812,
+            2.019014358520508,
+            -102.66732025146484
+        ]
+    }
+]
