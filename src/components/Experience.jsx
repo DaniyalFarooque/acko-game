@@ -24,6 +24,9 @@ import {
 } from "@react-three/postprocessing";
 import { Banana } from "./models/items/Banana_peel_mario_kart";
 import { ItemBox } from "./models/misc/Gift";
+import { Clock } from "./models/misc/Clock";
+import { Truck } from "./models/misc/Truck";
+import { Virus } from "./models/misc/Corona_virus";
 import { useStore } from "./store";
 import { Shell } from "./models/items/Mario_shell_red";
 import { Coin } from "./models/misc/Super_mario_bros_coin";
@@ -156,6 +159,12 @@ export const Experience = () => {
       {/* <Paris position={[0, 0, 0]} /> */}
       <ParisBis position={[0, 0, 0]} />
       <ItemBox position={[-20, 2.5, -119]} item= "item1" />
+      {/* rotation field updated to shift angle of object */}
+      <Truck position={[-20, -2.54, -105]} rotation={[ 0, 1.571, 0]} />
+      <Truck position={[-20, -2.54, -130]} />
+      <Virus position={[-10, 2.5, -119]} />
+      <Clock position={[-50, 2, -119]} />
+
       <ItemBox position={[-30, 2.5, -119]} item= "item2" />
       {/* <PerilBox position={[-40, 2.5, -119]} item= "Peril1" /> */}
       <Bomb position={[-40, 2.5, -119]} item= "Peril2" />
