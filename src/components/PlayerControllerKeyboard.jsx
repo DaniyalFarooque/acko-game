@@ -34,24 +34,41 @@ export const PlayerControllerKeyboard = ({
   networkBananas,
   networkShells,
 }) => {
-  const upPressed = useKeyboardControls((state) => state[Controls.up]);
-  const downPressed = useKeyboardControls((state) => state[Controls.down]);
-  const leftPressed = useKeyboardControls((state) => state[Controls.left]);
-  const rightPressed = useKeyboardControls((state) => state[Controls.right]);
-  const jumpPressed = useKeyboardControls((state) => state[Controls.jump]);
-  const shootPressed = useKeyboardControls((state) => state[Controls.shoot]);
-  const resetPressed = useKeyboardControls((state) => state[Controls.reset]);
-  const escPressed = useKeyboardControls((state) => state[Controls.escape]);
+  const { actions, shouldSlowDown, item, bananas, coins, id, controls, modalOpen } =
+    useStore();
+  let upPressed = useKeyboardControls((state) => state[Controls.up]);
+  let downPressed = useKeyboardControls((state) => state[Controls.down]);
+  let leftPressed = useKeyboardControls((state) => state[Controls.left]);
+  let rightPressed = useKeyboardControls((state) => state[Controls.right]);
+  let jumpPressed = useKeyboardControls((state) => state[Controls.jump]);
+  let shootPressed = useKeyboardControls((state) => state[Controls.shoot]);
+  let resetPressed = useKeyboardControls((state) => state[Controls.reset]);
+  let escPressed = useKeyboardControls((state) => state[Controls.escape]);
 
   const [isOnGround, setIsOnGround] = useState(false);
   const body = useRef();
   const kart = useRef();
   const cam = useRef();
   const initialSpeed = 0;
-  const maxSpeed = 30;
-  const boostSpeed = 50;
-  const acceleration = 0.1;
-  const decceleration = 0.2;
+  let maxSpeed = 30;
+  let boostSpeed = 50;
+  let acceleration = 0.1;
+  let decceleration = 0.2;
+  if(modalOpen) {
+    maxSpeed = 0;
+    boostSpeed = 0;
+    acceleration = 0;
+    upPressed = false;
+    downPressed = false;
+    leftPressed = false;
+    rightPressed = false;
+    jumpPressed = false;
+    shootPressed = false;
+    resetPressed = false;
+    escPressed = false;
+    decceleration = 100000;
+  }
+  
   const damping = -0.1;
   const MaxSteeringSpeed = 0.01;
   const [currentSteeringSpeed, setCurrentSteeringSpeed] = useState(0);
@@ -92,8 +109,7 @@ export const PlayerControllerKeyboard = ({
   const effectiveBoost = useRef(0);
   const text = useRef();
 
-  const { actions, shouldSlowDown, item, bananas, coins, id, controls } =
-    useStore();
+  
   const slowDownDuration = useRef(1500);
 
   const rightWheel = useRef();

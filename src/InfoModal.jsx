@@ -57,7 +57,7 @@ export const InfoModal = () => {
       {modalOpen && (
         <div className="home">
         <div className="glassy">
-          <h1>CHOOSE YOUR CONTROL STYLE</h1>
+          <h1>THIS IS INFO MODAL</h1>
 
           <div className="articles">
           <div className={controlStyle === "keyboard" ? "article selected" : "article"} onClick={() => 

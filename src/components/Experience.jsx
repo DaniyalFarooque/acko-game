@@ -45,6 +45,7 @@ import { ParisBis } from "./models/tracks/Paris-bis";
 import { Skid } from "./Skid";
 import { Dust } from "./Dust";
 import { PerilBox } from "./models/misc/Peril";
+import { Bomb } from "./models/misc/Bomb";
 
 export const Experience = () => {
   const onCollide = (event) => {};
@@ -154,7 +155,8 @@ export const Experience = () => {
       <ParisBis position={[0, 0, 0]} />
       <ItemBox position={[-20, 2.5, -119]} item= "item1" />
       <ItemBox position={[-30, 2.5, -119]} item= "item2" />
-      <PerilBox position={[-40, 2.5, -119]} item= "Peril1" />
+      {/* <PerilBox position={[-40, 2.5, -119]} item= "Peril1" /> */}
+      <Bomb position={[-40, 2.5, -119]} item= "Peril2" />
       <Coin position={[-30, 2, -119]} />
       <Coin position={[-40, 2, -119]} />
       <Coin position={[-63.02451705932617,
