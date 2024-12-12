@@ -52,7 +52,11 @@ export function Virus(props) {
           if(!perilTouched) {
             actions.setInformationDialog("peril")
           }
+          else{
+            actions.openModal();
+          }
         // actions.setItem();
+        actions.addPerils(props.item);
         setScale(0);
         frames.current = 400;
         body.current.setEnabled(false);
