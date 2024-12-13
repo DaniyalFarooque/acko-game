@@ -50,15 +50,15 @@ export const HUD = () => {
   //   }
   // }, [item]);
   const linkIdHash = {
-    "ACCIDENT_COVER": "../public/images/accident_cover.png",
-    "FIRE_HAZARD_COVER": "../public/images/fire_hazard.png",
-    "ELECTRONIC_COVER": "../public/images/electric_cover.png",
-    "ENGINE_PROTECTION_COVER": "../public/images/engine_cover.png",
-    "HEALTH_SHIELD": "../public/images/health_cover.png",
-    "BILL_COVER": "../public/images/bill_cover.png",
-    "TIME_SHIELD": "../public/images/time_shield.jpeg",
-    "COVID_COVER": "../public/images/covid_cover.png",
-    "LIFE_COVER": "../public/images/life_cover.png"
+    "ACCIDENT_COVER": "/images/accident_cover.png",
+    "FIRE_HAZARD_COVER": "/images/fire_hazard.png",
+    "ELECTRONIC_COVER": "/images/electric_cover.png",
+    "ENGINE_PROTECTION_COVER": "/images/engine_cover.png",
+    "HEALTH_SHIELD": "/images/health_cover.png",
+    "BILL_COVER": "/images/bill_cover.png",
+    "TIME_SHIELD": "/images/time_shield.jpeg",
+    "COVID_COVER": "/images/covid_cover.png",
+    "LIFE_COVER": "/images/life_cover.png"
   }
 
   return (
