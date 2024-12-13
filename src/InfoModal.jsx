@@ -146,6 +146,7 @@ export const InfoModal = () => {
                   onClick={() => {
                     if(peril.carHealthConsumed) actions.decreaseCarHealth(peril.carHealthConsumed);
                     if(peril.lifeHealthConsumed) actions.decreaseLifeHealth(peril.lifeHealthConsumed)
+                      actions.looseCoins(10)
                     actions.closeModal();
                   }}
                 >

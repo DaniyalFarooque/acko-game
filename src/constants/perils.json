@@ -469,6 +469,108 @@
     },
     {
         "type": "PERIL",
+        "id": "BOMB",
+        "imageUrl": ["/images/bomb-blast.png", "/images/bomb-human-damage.png"],
+        "title": "Catastrophic Event: A bomb threat has caused significant damage",
+        "coinsNeeded": 60,
+        "carHealthConsumed": 60,
+        "lifeHealthConsumed": 70,
+        "coveredUnder": [
+            "FIRE_HAZARD_COVER"
+        ],
+        "coordinates": [
+            -90,
+            2.5,
+            -120
+        ]
+    },
+    {
+        "type": "PERIL",
+        "id": "BOMB",
+        "imageUrl": ["/images/bomb-blast.png", "/images/bomb-human-damage.png"],
+        "title": "Catastrophic Event: A bomb threat has caused significant damage",
+        "coinsNeeded": 60,
+        "carHealthConsumed": 60,
+        "lifeHealthConsumed": 70,
+        "coveredUnder": [
+            "FIRE_HAZARD_COVER"
+        ],
+        "coordinates": [
+            101.7680892944336,
+            2.0189268589019775,
+            -198.30174255371094
+        ]
+    },
+    {
+        "type": "PERIL",
+        "id": "BOMB",
+        "imageUrl": ["/images/bomb-blast.png", "/images/bomb-human-damage.png"],
+        "title": "Catastrophic Event: A bomb threat has caused significant damage",
+        "coinsNeeded": 60,
+        "carHealthConsumed": 60,
+        "lifeHealthConsumed": 70,
+        "coveredUnder": [
+            "FIRE_HAZARD_COVER"
+        ],
+        "coordinates": [
+            51.66297912597656,
+            2.0193586349487305,
+-194.2030487060547
+        ]
+    },
+    {
+        "type": "PERIL",
+        "id": "BOMB",
+        "imageUrl": ["/images/bomb-blast.png", "/images/bomb-human-damage.png"],
+        "title": "Catastrophic Event: A bomb threat has caused significant damage",
+        "coinsNeeded": 60,
+        "carHealthConsumed": 60,
+        "lifeHealthConsumed": 70,
+        "coveredUnder": [
+            "FIRE_HAZARD_COVER"
+        ],
+        "coordinates": [
+            138.56060791015625,
+            1.017228126525879,
+            12.409223
+        ]
+    },
+    {
+        "type": "PERIL",
+        "id": "BOMB",
+        "imageUrl": ["/images/bomb-blast.png", "/images/bomb-human-damage.png"],
+        "title": "Catastrophic Event: A bomb threat has caused significant damage",
+        "coinsNeeded": 60,
+        "carHealthConsumed": 60,
+        "lifeHealthConsumed": 70,
+        "coveredUnder": [
+            "FIRE_HAZARD_COVER"
+        ],
+        "coordinates": [
+            20.238481521606445,
+            1.019580841064453,
+            0.4809150695800781
+        ]
+    },
+    {
+        "type": "PERIL",
+        "id": "BOMB",
+        "imageUrl": ["/images/bomb-blast.png", "/images/bomb-human-damage.png"],
+        "title": "Catastrophic Event: A bomb threat has caused significant damage",
+        "coinsNeeded": 60,
+        "carHealthConsumed": 60,
+        "lifeHealthConsumed": 70,
+        "coveredUnder": [
+            "FIRE_HAZARD_COVER"
+        ],
+        "coordinates": [
+            141.83692932128906,
+            2.01871871948242,
+            -79.337608
+        ]
+    },
+    {
+        "type": "PERIL",
         "id": "CLOCK",
         "imageUrl": ["/images/covid_damage.png"],
         "title": "Security Breach: Your assets are under threat",
