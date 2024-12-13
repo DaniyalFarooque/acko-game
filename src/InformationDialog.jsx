@@ -51,7 +51,7 @@ export const InformationDialog = () => {
           </div>
         </div>}
         {informationDialog === "cover" && <div className="glassy" style={{height: "40vh", width: "80vh"}}>
-          <h1>Yay! You got a cover!</h1>
+          <h1>Yay! You got a Superpower!</h1>
           <h2>Superpowers in the game represent different insurance policies that help players mitigate the damage caused by life's challenges. <br />
           Superpowers can be activated when certain damage events occur.</h2>
 
