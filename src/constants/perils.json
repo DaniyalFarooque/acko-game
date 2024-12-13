@@ -1,70 +1,4 @@
 [
-   
-    {
-        "type": "PERIL",
-        "id": "TRUCK",
-        "imageUrl": ["/images/truck-damage.png", "/images/truck_health_damage.png"],
-        "title": "Warning: A collision has occurred!",
-        "coinsNeeded": 50,
-        "carHealthConsumed": 40,
-        "lifeHealthConsumed": 60,
-        "coveredUnder": [
-            "ACCIDENT_COVER"
-        ],
-        "coordinates": [
-            -100,
-            -2.54,
-            -105
-        ],
-        "rotation": [
-            0,
-            1.5,
-            0
-        ]
-    },
-    {
-        "type": "PERIL",
-        "id": "WATER_TANK",
-        "imageUrl": [
-            "/truck-damage/covid_damage.png"
-        ],
-        "title": "Oops!! Your car got caught in a terrorist attack!!!",
-        "coinsNeeded": 50,
-        "carHealthConsumed": 40,
-        "lifeHealthConsumed": 60,
-        "coveredUnder": [
-            "ACCIDENT_COVER"
-        ],
-        "coordinates": [
-            -93.75384521484375,
-            -2.54,
-            -105.14569854736328
-        ]
-    },
-    {
-        "type": "PERIL",
-        "id": "WATER_TANK",
-        "imageUrl": [
-            "/truck-damage/covid_damage.png"
-        ],
-        "title": "Oops!! Your car got caught in a terrorist attack!!!",
-        "coinsNeeded": 50,
-        "carHealthConsumed": 40,
-        "lifeHealthConsumed": 60,
-        "coveredUnder": [
-            "ACCIDENT_COVER"
-        ],
-        "rotation": [
-            0,
-            1.0,
-            0
-        ],
-        "coordinates": [
-            -110,
-            -2.54,
-            -90.7
-        ]
-    },
     {
         "type": "PERIL",
         "id": "VIRUS",
@@ -552,28 +486,6 @@
     },
     {
         "type": "PERIL",
-        "id": "TRUCK",
-        "imageUrl": ["/images/truck-damage.png", "/images/truck_health_damage.png"],
-        "title": "Warning: A collision has occurred!",
-        "coinsNeeded": 50,
-        "carHealthConsumed": 40,
-        "lifeHealthConsumed": 60,
-        "coveredUnder": [
-            "ACCIDENT_COVER"
-        ],
-        "rotation": [
-            0,
-            1.0,
-            0
-        ],
-        "coordinates": [
-            -110,
-            -2.54,
-            -105
-        ]
-    },
-    {
-        "type": "PERIL",
         "id": "COVID",
         "imageUrl": ["./images/bomb-blast.png"],
         "title": "Alert: Health risks have impacted your progress",
@@ -582,11 +494,6 @@
         "lifeHealthConsumed": 60,
         "coveredUnder": [
             "ACCIDENT_COVER"
-        ],
-        "rotation": [
-            0,
-            1.0,
-            0
         ],
         "coordinates": [
             -110,
