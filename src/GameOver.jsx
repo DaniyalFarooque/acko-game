@@ -82,6 +82,7 @@ export const GameOver = () => {
                   className={"submit-button"}
                   onClick={() => {
                     // actions.restartGame();
+                    window.location.reload();
                   }}
                 >
                   RETRY
@@ -98,6 +99,7 @@ export const GameOver = () => {
                 className={"submit-button"}
                 onClick={() => {
                   // actions.restartGame();
+                  window.location.reload();
                 }}
               >
                 RETRY
