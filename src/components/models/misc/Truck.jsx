@@ -50,7 +50,7 @@ export function Truck(props) {
       position={props.position}
       colliders={false}
     >
-    <CuboidCollider args={[10.5, 10.5, 10.5]} scale={scale*2}/>
+    <CuboidCollider args={[10.5, 10.5, 10.5]} scale={scale*0.5}/>
     </RigidBody>
     <group ref={ref} position={props.position} rotation={props.rotation} dispose={null} scale={scale*100} >
       <mesh castShadow receiveShadow geometry={nodes.MM_Camion_ParteDelantera.geometry} material={materials.mobile_Camion} position={[0.187, 0.047, 0.052]} rotation={[Math.PI / 2, 0, -1.616]} scale={scale*0.01} />
