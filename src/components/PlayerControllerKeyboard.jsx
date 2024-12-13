@@ -50,10 +50,10 @@ export const PlayerControllerKeyboard = ({
   const kart = useRef();
   const cam = useRef();
   const initialSpeed = 0;
-  let maxSpeed = 40;
-  let boostSpeed = 40;
-  let acceleration = 0.4;
-  let decceleration = 0.4;
+  let maxSpeed = 30;
+  let boostSpeed = 30;
+  let acceleration = 0.3;
+  let decceleration = 0.3;
   if(modalOpen || informationDialog || carHealth<=0 || lifeHealth<=0) {
     maxSpeed = 0;
     boostSpeed = 0;
