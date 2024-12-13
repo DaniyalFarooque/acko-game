@@ -51,14 +51,13 @@ export const HUD = () => {
     "COVID_COVER": "/images/covid_cover.png",
     "LIFE_COVER": "/images/life_cover.png"
   }
-
   return (
     <>
-    <div className="overlay" style={{flexDirection: "column"}}>
+    <div className="overlay" style={{flexDirection: "column", alignItems:'center', flexWrap:'wrap', maxHeight:'90vh'}}>
       {gameStarted && (
         <>
             {coversAcquired.map((e,i) => {
-              return (<div className="item">
+              return (<><div className="item">
                 <div className="borderOut">
                   <div className="borderIn">
                     <div className="background">
@@ -66,7 +65,7 @@ export const HUD = () => {
                     </div>
                   </div>
                 </div>
-              </div>)
+              </div><div style={{fontSize: 12, color:'#fff', background:'#6E6E6E', padding:4, textAlign:'center', opacity:'0.7', borderRadius: 5}}><b>{e.title}</b></div></>)
             })
             }
             {controls === "touch" && (
