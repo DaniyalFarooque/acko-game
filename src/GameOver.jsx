@@ -27,13 +27,13 @@ export const GameOver = () => {
 
   })
 
-
+  console.log(coversFound.find(e => e.id === "LIFE_COVER"), "asdfasdf")
   return (
     <>
       <div style={{ zIndex: 100, position: "absolute", top: "0", left: "0", right: "0", bottom: "0", display: "flex", justifyContent: "center", alignItems: "center" }}>
 
         <div className="glassy-info-modal" style={{ height: "90vh", width: "60vw" }}>
-          <h1 style={{ marginBottom: 30 }}>GAME OVER</h1>
+          <h1 style={{ marginBottom: 30 }}>!!GAME OVER!!</h1>
           <div style={{ display: "flex", gap: "20px" }}>
             <div style={{ width: "50%" }}>
               <h2 style={{ textTransform: "uppercase", marginBottom: 20 }}>Superpowers Collected</h2>
@@ -90,8 +90,9 @@ export const GameOver = () => {
             </div>
           </div>}
           {coins < 100 && <div>
-            <h1 style={{ marginBottom: 30, marginTop: 100 }}>YOU LOST</h1>
-            <p style={{ marginBottom: 40 }}>You lost due to your poor choices. Current wallet has less coins than the initial amount.</p>
+            <h1 style={{ marginBottom: 30, marginTop: 100 }}>YOU LOST!</h1>
+            {coversFound.find(e => e.id === "LIFE_COVER") && <p style={{ marginBottom: 40 }}>You lost but since you had LIFE COVER. Your family and their goals are safe</p>}
+            {!coversFound.find(e => e.id === "LIFE_COVER") && <p style={{ marginBottom: 40 }}>You lost due to your poor choices. Current wallet has less coins than the initial amount.</p>}
             <div className={"submit"} style={{ margin: '0 auto' }}>
               <button
                 className={"submit-button"}

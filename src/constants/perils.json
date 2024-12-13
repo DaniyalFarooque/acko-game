@@ -4,9 +4,9 @@
         "id": "TRUCK",
         "imageUrl": ["../public/images/truck-damage.png", "../public/images/truck_health_damage.png"],
         "title": "Warning: A collision has occurred!",
-        "coinsNeeded": 5,
-        "carHealthConsumed": 5,
-        "lifeHealthConsumed": 5,
+        "coinsNeeded": 50,
+        "carHealthConsumed": 40,
+        "lifeHealthConsumed": 60,
         "coveredUnder": [
             "ACCIDENT_COVER"
         ],
@@ -26,9 +26,9 @@
         "id": "TRUCK",
         "imageUrl": ["../public/images/truck-damage.png", "../public/images/truck_health_damage.png"],
         "title": "Warning: A collision has occurred!",
-        "coinsNeeded": 5,
-        "carHealthConsumed": 5,
-        "lifeHealthConsumed": 5,
+        "coinsNeeded": 50,
+        "carHealthConsumed": 40,
+        "lifeHealthConsumed": 60,
         "coveredUnder": [
             "ACCIDENT_COVER"
         ],
@@ -92,8 +92,8 @@
         "imageUrl": [
             "../public/images/covid_damage.png"
         ],
-        "title": "Oops!! Your car got caught in a terrorist attack!!!",
-        "coinsNeeded": 50,
+        "title": "Alert: Health risks have impacted your progress",
+        "coinsNeeded": 70,
         "carHealthConsumed": 0,
         "lifeHealthConsumed": 60,
         "coveredUnder": [
@@ -111,8 +111,8 @@
         "imageUrl": [
             "../public/images/covid_damage.png"
         ],
-        "title": "Oops!! Your car got caught in a terrorist attack!!!",
-        "coinsNeeded": 50,
+        "title": "Alert: Health risks have impacted your progress",
+        "coinsNeeded": 70,
         "carHealthConsumed": 0,
         "lifeHealthConsumed": 60,
         "coveredUnder": [
@@ -129,7 +129,7 @@
         "id": "ELEVATED_VIRUS",
         "imageUrl": ["../public/images/covid_damage.png"],
         "title": "Alert: Health risks have impacted your progress",
-        "coinsNeeded": 50,
+        "coinsNeeded": 70,
         "carHealthConsumed": 0,
         "lifeHealthConsumed": 60,
         "coveredUnder": [
@@ -147,8 +147,8 @@
         "imageUrl": [
             "../public/images/covid_damage.png"
         ],
-        "title": "Oops!! Your car got caught in a terrorist attack!!!",
-        "coinsNeeded": 50,
+        "title": "Alert: Health risks have impacted your progress",
+        "coinsNeeded": 70,
         "carHealthConsumed": 0,
         "lifeHealthConsumed": 60,
         "coveredUnder": [
@@ -165,7 +165,7 @@
         "id": "ELEVATED_VIRUS",
         "imageUrl": ["../public/images/covid_damage.png"],
         "title": "Alert: Health risks have impacted your progress",
-        "coinsNeeded": 50,
+        "coinsNeeded": 70,
         "carHealthConsumed": 0,
         "lifeHealthConsumed": 60,
         "coveredUnder": [
@@ -182,7 +182,7 @@
         "id": "ELEVATED_VIRUS",
         "imageUrl": ["../public/images/covid_damage.png"],
         "title": "Alert: Health risks have impacted your progress",
-        "coinsNeeded": 50,
+        "coinsNeeded": 70,
         "carHealthConsumed": 0,
         "lifeHealthConsumed": 60,
         "coveredUnder": [
@@ -200,8 +200,8 @@
         "imageUrl": [
             "../public/images/covid_damage.png"
         ],
-        "title": "Oops!! Your car got caught in a terrorist attack!!!",
-        "coinsNeeded": 50,
+        "title": "Alert: Health risks have impacted your progress",
+        "coinsNeeded": 70,
         "carHealthConsumed": 0,
         "lifeHealthConsumed": 60,
         "coveredUnder": [
@@ -219,8 +219,8 @@
         "imageUrl": [
             "../public/images/covid_damage.png"
         ],
-        "title": "Oops!! Your car got caught in a terrorist attack!!!",
-        "coinsNeeded": 50,
+        "title": "Alert: Health risks have impacted your progress",
+        "coinsNeeded": 70,
         "carHealthConsumed": 0,
         "lifeHealthConsumed": 60,
         "coveredUnder": [
@@ -237,7 +237,7 @@
         "id": "ELEVATED_VIRUS",
         "imageUrl": ["../public/images/covid_damage.png"],
         "title": "Alert: Health risks have impacted your progress",
-        "coinsNeeded": 50,
+        "coinsNeeded": 70,
         "carHealthConsumed": 0,
         "lifeHealthConsumed": 60,
         "coveredUnder": [
@@ -255,8 +255,8 @@
         "imageUrl": [
             "../public/images/covid_damage.png"
         ],
-        "title": "Oops!! Your car got caught in a terrorist attack!!!",
-        "coinsNeeded": 50,
+        "title": "Alert: Health risks have impacted your progress",
+        "coinsNeeded": 70,
         "carHealthConsumed": 0,
         "lifeHealthConsumed": 60,
         "coveredUnder": [
@@ -273,7 +273,7 @@
         "id": "ELEVATED_VIRUS",
         "imageUrl": ["../public/images/covid_damage.png"],
         "title": "Alert: Health risks have impacted your progress",
-        "coinsNeeded": 50,
+        "coinsNeeded": 70,
         "carHealthConsumed": 0,
         "lifeHealthConsumed": 60,
         "coveredUnder": [
@@ -290,7 +290,7 @@
         "id": "ELEVATED_VIRUS",
         "imageUrl": ["../public/images/covid_damage.png"],
         "title": "Alert: Health risks have impacted your progress",
-        "coinsNeeded": 50,
+        "coinsNeeded": 70,
         "carHealthConsumed": 0,
         "lifeHealthConsumed": 60,
         "coveredUnder": [
@@ -308,8 +308,8 @@
         "imageUrl": [
             "../public/images/covid_damage.png"
         ],
-        "title": "Oops!! Your car got caught in a terrorist attack!!!",
-        "coinsNeeded": 50,
+        "title": "Alert: Health risks have impacted your progress",
+        "coinsNeeded": 70,
         "carHealthConsumed": 0,
         "lifeHealthConsumed": 60,
         "coveredUnder": [
@@ -327,8 +327,8 @@
         "imageUrl": [
             "../public/images/covid_damage.png"
         ],
-        "title": "Oops!! Your car got caught in a terrorist attack!!!",
-        "coinsNeeded": 50,
+        "title": "Alert: Health risks have impacted your progress",
+        "coinsNeeded": 70,
         "carHealthConsumed": 0,
         "lifeHealthConsumed": 60,
         "coveredUnder": [
@@ -345,7 +345,7 @@
         "id": "ELEVATED_VIRUS",
         "imageUrl": ["../public/images/covid_damage.png"],
         "title": "Alert: Health risks have impacted your progress",
-        "coinsNeeded": 50,
+        "coinsNeeded": 70,
         "carHealthConsumed": 0,
         "lifeHealthConsumed": 60,
         "coveredUnder": [
@@ -363,8 +363,8 @@
         "imageUrl": [
             "../public/images/covid_damage.png"
         ],
-        "title": "Oops!! Your car got caught in a terrorist attack!!!",
-        "coinsNeeded": 50,
+        "title": "Alert: Health risks have impacted your progress",
+        "coinsNeeded": 70,
         "carHealthConsumed": 0,
         "lifeHealthConsumed": 60,
         "coveredUnder": [
@@ -381,7 +381,7 @@
         "id": "ELEVATED_VIRUS",
         "imageUrl": ["../public/images/covid_damage.png"],
         "title": "Alert: Health risks have impacted your progress",
-        "coinsNeeded": 50,
+        "coinsNeeded": 70,
         "carHealthConsumed": 0,
         "lifeHealthConsumed": 60,
         "coveredUnder": [
@@ -398,7 +398,7 @@
         "id": "ELEVATED_VIRUS",
         "imageUrl": ["../public/images/covid_damage.png"],
         "title": "Alert: Health risks have impacted your progress",
-        "coinsNeeded": 50,
+        "coinsNeeded": 70,
         "carHealthConsumed": 0,
         "lifeHealthConsumed": 60,
         "coveredUnder": [
@@ -416,8 +416,8 @@
         "imageUrl": [
             "../public/images/covid_damage.png"
         ],
-        "title": "Oops!! Your car got caught in a terrorist attack!!!",
-        "coinsNeeded": 50,
+        "title": "Alert: Health risks have impacted your progress",
+        "coinsNeeded": 70,
         "carHealthConsumed": 0,
         "lifeHealthConsumed": 60,
         "coveredUnder": [
@@ -435,8 +435,8 @@
         "imageUrl": [
             "../public/images/covid_damage.png"
         ],
-        "title": "Oops!! Your car got caught in a terrorist attack!!!",
-        "coinsNeeded": 50,
+        "title": "Alert: Health risks have impacted your progress",
+        "coinsNeeded": 70,
         "carHealthConsumed": 0,
         "lifeHealthConsumed": 60,
         "coveredUnder": [
@@ -453,7 +453,7 @@
         "id": "ELEVATED_VIRUS",
         "imageUrl": ["../public/images/covid_damage.png"],
         "title": "Alert: Health risks have impacted your progress",
-        "coinsNeeded": 50,
+        "coinsNeeded": 70,
         "carHealthConsumed": 0,
         "lifeHealthConsumed": 60,
         "coveredUnder": [
@@ -471,8 +471,8 @@
         "imageUrl": [
             "../public/images/covid_damage.png"
         ],
-        "title": "Oops!! Your car got caught in a terrorist attack!!!",
-        "coinsNeeded": 50,
+        "title": "Alert: Health risks have impacted your progress",
+        "coinsNeeded": 70,
         "carHealthConsumed": 0,
         "lifeHealthConsumed": 60,
         "coveredUnder": [
@@ -489,7 +489,7 @@
         "id": "ELEVATED_VIRUS",
         "imageUrl": ["../public/images/covid_damage.png"],
         "title": "Alert: Health risks have impacted your progress",
-        "coinsNeeded": 50,
+        "coinsNeeded": 70,
         "carHealthConsumed": 0,
         "lifeHealthConsumed": 60,
         "coveredUnder": [
@@ -506,7 +506,7 @@
         "id": "ELEVATED_VIRUS",
         "imageUrl": ["../public/images/covid_damage.png"],
         "title": "Alert: Health risks have impacted your progress",
-        "coinsNeeded": 50,
+        "coinsNeeded": 70,
         "carHealthConsumed": 0,
         "lifeHealthConsumed": 60,
         "coveredUnder": [
@@ -524,8 +524,8 @@
         "imageUrl": [
             "../public/images/covid_damage.png"
         ],
-        "title": "Oops!! Your car got caught in a terrorist attack!!!",
-        "coinsNeeded": 50,
+        "title": "Alert: Health risks have impacted your progress",
+        "coinsNeeded": 70,
         "carHealthConsumed": 0,
         "lifeHealthConsumed": 60,
         "coveredUnder": [

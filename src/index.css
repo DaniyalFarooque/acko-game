@@ -16,6 +16,7 @@
   /* cursor:none; */
   overflow-y: none;
   overflow-x: none;
+  font-family: monospace;
 }
 
 body::-webkit-scrollbar {
@@ -41,7 +42,7 @@ body::-webkit-scrollbar {
   margin-left: 75px;
 }
 .coinText{
-  font-size: 30px;
+  font-size: 20px;
   color: #ffffff;
   text-align: center;
 }
@@ -212,8 +213,8 @@ body::-webkit-scrollbar {
 }
 */
 .item {
-  width: 152px;
-  height: 152px;
+  width: 102px;
+  height: 102px;
   /* position: absolute; */
   /* top: 75px; */
   /* left: 75px; */
@@ -224,8 +225,8 @@ body::-webkit-scrollbar {
   justify-content: center;
   align-items: center;
   .borderOut {
-    width: 150px;
-    height: 150px;
+    width: 102px;
+    height: 102px;
     display: flex;
     justify-content: center;
     align-items: center;

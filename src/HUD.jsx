@@ -63,7 +63,7 @@ export const HUD = () => {
 
   return (
     <>
-    <div className="overlay">
+    <div className="overlay" style={{flexDirection: "column"}}>
       {gameStarted && (
         <>
             {item.map((e,i) => {
@@ -71,7 +71,7 @@ export const HUD = () => {
                 <div className="borderOut">
                   <div className="borderIn">
                     <div className="background">
-                      {linkIdHash[e] && <img src={linkIdHash[e]} alt="item" width={90} key={i} />}
+                      {linkIdHash[e] && <img src={linkIdHash[e]} alt="item" width={40} key={i} />}
                     </div>
                   </div>
                 </div>
@@ -160,7 +160,7 @@ export const HUD = () => {
                   <div className="borderIn">
                     <div className="background">
                     <div className="coinClass">
-            <img src="./images/coin.png" alt="item" width={50} /> <div className="coinText">{coins}</div>
+            <img src="./images/coin.png" alt="item" width={40} /> <div className="coinText">{coins}</div>
             </div>
                     </div>
                   </div>
@@ -171,7 +171,7 @@ export const HUD = () => {
                   <div className="borderIn">
                     <div className="background">
                     <div className="coinClass">
-            <img src="./images/carHealth.webp" alt="item" width={50} /> <div className="coinText">{carHealth}</div>
+            <img src="./images/carHealth.webp" alt="item" width={40} /> <div className="coinText">{carHealth>=0? carHealth: 0}</div>
             </div>
                     </div>
                   </div>
@@ -182,7 +182,7 @@ export const HUD = () => {
                   <div className="borderIn">
                     <div className="background">
                     <div className="coinClass">
-            <img src="./images/hp.png" alt="item" width={50} /> <div className="coinText">{lifeHealth}</div>
+            <img src="./images/hp.png" alt="item" width={40} /> <div className="coinText">{lifeHealth>=0? lifeHealth: 0 }</div>
             </div>
                     </div>
                   </div>
