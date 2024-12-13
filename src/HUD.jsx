@@ -54,11 +54,11 @@ export const HUD = () => {
 
   return (
     <>
-    <div className="overlay" style={{flexDirection: "column"}}>
-      {gameStarted && (
-        <>
-            {coversAcquired.map((e,i) => {
-              return (<div className="item">
+      <div className="overlay" style={{ flexDirection: "column" }}>
+        {gameStarted && (
+          <>
+            {coversAcquired.map((e, i) => {
+              return (<div className="item enlarge-effect">
                 <div className="borderOut">
                   <div className="borderIn">
                     <div className="background">
@@ -142,44 +142,44 @@ export const HUD = () => {
                 </div>
               </>
             )}
-        </>
-      )}
-    </div>
-    {gameStarted && <div className="right-overlay">
-      <div className="item">
-                <div className="borderOut">
-                  <div className="borderIn">
-                    <div className="background">
-                    <div className="coinClass">
-            <img src="./images/coin.png" alt="item" width={40} /> <div className="coinText">{coins}</div>
-            </div>
-                    </div>
-                  </div>
+          </>
+        )}
+      </div>
+      {gameStarted && <div className="right-overlay">
+        <div className="item enlarge-effect">
+          <div className="borderOut">
+            <div className="borderIn">
+              <div className="background">
+                <div className="coinClass">
+                  <img src="./images/coin.png" alt="item" width={40} /> <div className="coinText">{coins}</div>
                 </div>
               </div>
-              <div className="item" style={{marginTop: 20}}>
-                <div className="borderOut">
-                  <div className="borderIn">
-                    <div className="background">
-                    <div className="coinClass">
-            <img src="./images/carHealth.webp" alt="item" width={40} /> <div className="coinText">{carHealth>=0? carHealth: 0}</div>
             </div>
-                    </div>
-                  </div>
+          </div>
+        </div>
+        <div className="item enlarge-effect"  style={{ marginTop: 20 }}>
+          <div className="borderOut">
+            <div className="borderIn">
+              <div className="background">
+                <div className="coinClass">
+                  <img src="./images/carHealth.webp" alt="item" width={40} /> <div className="coinText">{carHealth >= 0 ? carHealth : 0}</div>
                 </div>
               </div>
-              <div className="item" style={{marginTop: 20}}>
-                <div className="borderOut">
-                  <div className="borderIn">
-                    <div className="background">
-                    <div className="coinClass">
-            <img src="./images/hp.png" alt="item" width={40} /> <div className="coinText">{lifeHealth>=0? lifeHealth: 0 }</div>
             </div>
-                    </div>
-                  </div>
+          </div>
+        </div>
+        <div className="item enlarge-effect" style={{ marginTop: 20 }}>
+          <div className="borderOut">
+            <div className="borderIn">
+              <div className="background">
+                <div className="coinClass">
+                  <img src="./images/hp.png" alt="item" width={40} /> <div className="coinText">{lifeHealth >= 0 ? lifeHealth : 0}</div>
                 </div>
               </div>
-              </div>}
+            </div>
+          </div>
+        </div>
+      </div>}
     </>
   );
 };
