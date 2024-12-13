@@ -114,7 +114,7 @@ export const InfoModal = () => {
             {isClaimAvailable &&
               <h2 style={{ textAlign: "center", marginTop: 40, color: "#56f756", textTransform: "uppercase" }}>Good for you!! This is already covered under<br /> <b>{coverNameString}</b></h2>
             }
-            <div style={{ display: "flex", gap: 30, marginTop: 100, 
+            <div style={{ display: "flex", gap: 30, marginTop: 10, 
     color: "#ff0101",
     textTransform: "uppercase"
  }}>
@@ -154,7 +154,7 @@ export const InfoModal = () => {
               </div>
             </div>
           </div>
-          <div className="glassy-info-modal" style={{ width: "14vw" }}>
+          <div className="glassy-info-modal" style={{ width: "18vw" }}>
             <h1>Superpowers Needed</h1>
             {coversNeeded.map(e => {
 

@@ -1,30 +1,9 @@
 [
+   
     {
         "type": "PERIL",
         "id": "TRUCK",
-        "imageUrl": ["../public/images/truck-damage.png", "../public/images/truck_health_damage.png"],
-        "title": "Warning: A collision has occurred!",
-        "coinsNeeded": 50,
-        "carHealthConsumed": 40,
-        "lifeHealthConsumed": 60,
-        "coveredUnder": [
-            "ACCIDENT_COVER"
-        ],
-        "coordinates": [
-            -123.4153060913086,
-            -2.1816978454589844,
-            -117.84522247314453
-        ],
-        "rotation": [
-            0,
-            1.571,
-            0
-        ]
-    },
-    {
-        "type": "PERIL",
-        "id": "TRUCK",
-        "imageUrl": ["../public/images/truck-damage.png", "../public/images/truck_health_damage.png"],
+        "imageUrl": ["/images/truck-damage.png", "/images/truck_health_damage.png"],
         "title": "Warning: A collision has occurred!",
         "coinsNeeded": 50,
         "carHealthConsumed": 40,
@@ -47,7 +26,7 @@
         "type": "PERIL",
         "id": "WATER_TANK",
         "imageUrl": [
-            "../public/truck-damage/covid_damage.png"
+            "/truck-damage/covid_damage.png"
         ],
         "title": "Oops!! Your car got caught in a terrorist attack!!!",
         "coinsNeeded": 50,
@@ -66,7 +45,7 @@
         "type": "PERIL",
         "id": "WATER_TANK",
         "imageUrl": [
-            "../public/truck-damage/covid_damage.png"
+            "/truck-damage/covid_damage.png"
         ],
         "title": "Oops!! Your car got caught in a terrorist attack!!!",
         "coinsNeeded": 50,
@@ -90,7 +69,7 @@
         "type": "PERIL",
         "id": "VIRUS",
         "imageUrl": [
-            "../public/images/covid_damage.png"
+            "/images/covid_damage.png"
         ],
         "title": "Alert: Health risks have impacted your progress",
         "coinsNeeded": 70,
@@ -109,7 +88,7 @@
         "type": "PERIL",
         "id": "VIRUS",
         "imageUrl": [
-            "../public/images/covid_damage.png"
+            "/images/covid_damage.png"
         ],
         "title": "Alert: Health risks have impacted your progress",
         "coinsNeeded": 70,
@@ -127,7 +106,7 @@
     {
         "type": "PERIL",
         "id": "ELEVATED_VIRUS",
-        "imageUrl": ["../public/images/covid_damage.png"],
+        "imageUrl": ["/images/covid_damage.png"],
         "title": "Alert: Health risks have impacted your progress",
         "coinsNeeded": 70,
         "carHealthConsumed": 0,
@@ -145,7 +124,7 @@
         "type": "PERIL",
         "id": "VIRUS",
         "imageUrl": [
-            "../public/images/covid_damage.png"
+            "/images/covid_damage.png"
         ],
         "title": "Alert: Health risks have impacted your progress",
         "coinsNeeded": 70,
@@ -163,7 +142,7 @@
     {
         "type": "PERIL",
         "id": "ELEVATED_VIRUS",
-        "imageUrl": ["../public/images/covid_damage.png"],
+        "imageUrl": ["/images/covid_damage.png"],
         "title": "Alert: Health risks have impacted your progress",
         "coinsNeeded": 70,
         "carHealthConsumed": 0,
@@ -180,7 +159,7 @@
     {
         "type": "PERIL",
         "id": "ELEVATED_VIRUS",
-        "imageUrl": ["../public/images/covid_damage.png"],
+        "imageUrl": ["/images/covid_damage.png"],
         "title": "Alert: Health risks have impacted your progress",
         "coinsNeeded": 70,
         "carHealthConsumed": 0,
@@ -198,7 +177,7 @@
         "type": "PERIL",
         "id": "VIRUS",
         "imageUrl": [
-            "../public/images/covid_damage.png"
+            "/images/covid_damage.png"
         ],
         "title": "Alert: Health risks have impacted your progress",
         "coinsNeeded": 70,
@@ -217,7 +196,7 @@
         "type": "PERIL",
         "id": "VIRUS",
         "imageUrl": [
-            "../public/images/covid_damage.png"
+            "/images/covid_damage.png"
         ],
         "title": "Alert: Health risks have impacted your progress",
         "coinsNeeded": 70,
@@ -235,7 +214,7 @@
     {
         "type": "PERIL",
         "id": "ELEVATED_VIRUS",
-        "imageUrl": ["../public/images/covid_damage.png"],
+        "imageUrl": ["/images/covid_damage.png"],
         "title": "Alert: Health risks have impacted your progress",
         "coinsNeeded": 70,
         "carHealthConsumed": 0,
@@ -253,7 +232,7 @@
         "type": "PERIL",
         "id": "VIRUS",
         "imageUrl": [
-            "../public/images/covid_damage.png"
+            "/images/covid_damage.png"
         ],
         "title": "Alert: Health risks have impacted your progress",
         "coinsNeeded": 70,
@@ -271,7 +250,7 @@
     {
         "type": "PERIL",
         "id": "ELEVATED_VIRUS",
-        "imageUrl": ["../public/images/covid_damage.png"],
+        "imageUrl": ["/images/covid_damage.png"],
         "title": "Alert: Health risks have impacted your progress",
         "coinsNeeded": 70,
         "carHealthConsumed": 0,
@@ -288,7 +267,7 @@
     {
         "type": "PERIL",
         "id": "ELEVATED_VIRUS",
-        "imageUrl": ["../public/images/covid_damage.png"],
+        "imageUrl": ["/images/covid_damage.png"],
         "title": "Alert: Health risks have impacted your progress",
         "coinsNeeded": 70,
         "carHealthConsumed": 0,
@@ -306,7 +285,7 @@
         "type": "PERIL",
         "id": "VIRUS",
         "imageUrl": [
-            "../public/images/covid_damage.png"
+            "/images/covid_damage.png"
         ],
         "title": "Alert: Health risks have impacted your progress",
         "coinsNeeded": 70,
@@ -325,7 +304,7 @@
         "type": "PERIL",
         "id": "VIRUS",
         "imageUrl": [
-            "../public/images/covid_damage.png"
+            "/images/covid_damage.png"
         ],
         "title": "Alert: Health risks have impacted your progress",
         "coinsNeeded": 70,
@@ -343,7 +322,7 @@
     {
         "type": "PERIL",
         "id": "ELEVATED_VIRUS",
-        "imageUrl": ["../public/images/covid_damage.png"],
+        "imageUrl": ["/images/covid_damage.png"],
         "title": "Alert: Health risks have impacted your progress",
         "coinsNeeded": 70,
         "carHealthConsumed": 0,
@@ -361,7 +340,7 @@
         "type": "PERIL",
         "id": "VIRUS",
         "imageUrl": [
-            "../public/images/covid_damage.png"
+            "/images/covid_damage.png"
         ],
         "title": "Alert: Health risks have impacted your progress",
         "coinsNeeded": 70,
@@ -379,7 +358,7 @@
     {
         "type": "PERIL",
         "id": "ELEVATED_VIRUS",
-        "imageUrl": ["../public/images/covid_damage.png"],
+        "imageUrl": ["/images/covid_damage.png"],
         "title": "Alert: Health risks have impacted your progress",
         "coinsNeeded": 70,
         "carHealthConsumed": 0,
@@ -396,7 +375,7 @@
     {
         "type": "PERIL",
         "id": "ELEVATED_VIRUS",
-        "imageUrl": ["../public/images/covid_damage.png"],
+        "imageUrl": ["/images/covid_damage.png"],
         "title": "Alert: Health risks have impacted your progress",
         "coinsNeeded": 70,
         "carHealthConsumed": 0,
@@ -414,7 +393,7 @@
         "type": "PERIL",
         "id": "VIRUS",
         "imageUrl": [
-            "../public/images/covid_damage.png"
+            "/images/covid_damage.png"
         ],
         "title": "Alert: Health risks have impacted your progress",
         "coinsNeeded": 70,
@@ -433,7 +412,7 @@
         "type": "PERIL",
         "id": "VIRUS",
         "imageUrl": [
-            "../public/images/covid_damage.png"
+            "/images/covid_damage.png"
         ],
         "title": "Alert: Health risks have impacted your progress",
         "coinsNeeded": 70,
@@ -451,7 +430,7 @@
     {
         "type": "PERIL",
         "id": "ELEVATED_VIRUS",
-        "imageUrl": ["../public/images/covid_damage.png"],
+        "imageUrl": ["/images/covid_damage.png"],
         "title": "Alert: Health risks have impacted your progress",
         "coinsNeeded": 70,
         "carHealthConsumed": 0,
@@ -469,7 +448,7 @@
         "type": "PERIL",
         "id": "VIRUS",
         "imageUrl": [
-            "../public/images/covid_damage.png"
+            "/images/covid_damage.png"
         ],
         "title": "Alert: Health risks have impacted your progress",
         "coinsNeeded": 70,
@@ -487,7 +466,7 @@
     {
         "type": "PERIL",
         "id": "ELEVATED_VIRUS",
-        "imageUrl": ["../public/images/covid_damage.png"],
+        "imageUrl": ["/images/covid_damage.png"],
         "title": "Alert: Health risks have impacted your progress",
         "coinsNeeded": 70,
         "carHealthConsumed": 0,
@@ -504,7 +483,7 @@
     {
         "type": "PERIL",
         "id": "ELEVATED_VIRUS",
-        "imageUrl": ["../public/images/covid_damage.png"],
+        "imageUrl": ["/images/covid_damage.png"],
         "title": "Alert: Health risks have impacted your progress",
         "coinsNeeded": 70,
         "carHealthConsumed": 0,
@@ -522,7 +501,7 @@
         "type": "PERIL",
         "id": "VIRUS",
         "imageUrl": [
-            "../public/images/covid_damage.png"
+            "/images/covid_damage.png"
         ],
         "title": "Alert: Health risks have impacted your progress",
         "coinsNeeded": 70,
@@ -540,7 +519,7 @@
     {
         "type": "PERIL",
         "id": "BOMB",
-        "imageUrl": ["../public/images/bomb-blast.png", "../public/images/bomb-human-damage.png"],
+        "imageUrl": ["/images/bomb-blast.png", "/images/bomb-human-damage.png"],
         "title": "Catastrophic Event: A bomb threat has caused significant damage",
         "coinsNeeded": 60,
         "carHealthConsumed": 60,
@@ -557,7 +536,7 @@
     {
         "type": "PERIL",
         "id": "CLOCK",
-        "imageUrl": ["../public/images/covid_damage.png"],
+        "imageUrl": ["/images/covid_damage.png"],
         "title": "Security Breach: Your assets are under threat",
         "coinsNeeded": 40,
         "carHealthConsumed": 0,
@@ -574,7 +553,7 @@
     {
         "type": "PERIL",
         "id": "TRUCK",
-        "imageUrl": ["../public/images/truck-damage.png", "../public/images/truck_health_damage.png"],
+        "imageUrl": ["/images/truck-damage.png", "/images/truck_health_damage.png"],
         "title": "Warning: A collision has occurred!",
         "coinsNeeded": 50,
         "carHealthConsumed": 40,
@@ -618,7 +597,7 @@
     {
         "type": "PERIL",
         "id": "TRUCK",
-        "imageUrl": ["../public/images/truck-damage.png", "../public/images/truck_health_damage.png"],
+        "imageUrl": ["/images/truck-damage.png", "/images/truck_health_damage.png"],
         "title": "Warning: A collision has occurred!",
         "coinsNeeded": 50,
         "carHealthConsumed": 40,
