@@ -52,6 +52,13 @@ export const Landing = () => {
   if (gameStarted) {
     return null; 
   }
+  const wrapText = (text, lineIndex) => {
+    return text.split("").map((char, index) => (
+      <span key={index} style={{ animationDelay: `${lineIndex * 1 + index * 0.07}s` }} className="animated-letter">
+        {char === " " ? "\u00A0" : char}
+      </span>
+    ));
+  };
   return (
     <>
       {setupStatus === 0 && (
@@ -78,8 +85,8 @@ export const Landing = () => {
       {setupStatus === 1 && (
         <div className="home">
           <div className="glassy" style={{height: "35vh"}}>
-            <h1>Game Objective</h1>
-            <h2>In "Life Quest: The Insurance Game", players navigate a city in a car, collecting coins and superpowers (insurance covers) to protect themselves from life's unpredictable challenges. </h2>
+            <h1>{wrapText("Game Objective",0)}</h1>
+            <h2>{wrapText("In Ackventure players navigate a city in a car, collecting coins and superpowers (insurance covers) to protect themselves from life's unpredictable challenges.",0)}</h2>
             
 
             <div className={"submit"}>
