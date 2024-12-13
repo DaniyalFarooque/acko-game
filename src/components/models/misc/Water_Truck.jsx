@@ -52,7 +52,7 @@ export function Water_Truck(props) {
       position={props.position}
       colliders={false}
     >
-    <CuboidCollider args={[10.5, 10.5, 10.5]} />
+    <CuboidCollider args={[10.5, 10.5, 10.5]} scale={scale*0.5}/>
     </RigidBody>
     <group ref={ref} position={props.position} scale={scale} dispose={null}>
       <group position={[0, 1.831, -0.222]}>

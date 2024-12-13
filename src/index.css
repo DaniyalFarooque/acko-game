@@ -640,3 +640,19 @@ body::-webkit-scrollbar {
     opacity: 1;
   }
 }
+.enlarge-effect {
+  
+  animation: enlargeAndShrink 0.6s ease-out; /* Adjust duration and easing as needed */
+}
+
+@keyframes enlargeAndShrink {
+  0% {
+    transform: scale(1); /* Original size */
+  }
+  50% {
+    transform: scale(1.5); /* Enlarged size */
+  }
+  100% {
+    transform: scale(1); /* Back to original size */
+  }
+}
