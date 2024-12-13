@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useStore } from "./components/store";
 import { Joystick } from "react-joystick-component";
+import coverConfig from "./constants/covers.json";
 
 export const HUD = () => {
   const wheel = useRef();
@@ -34,21 +35,11 @@ export const HUD = () => {
     actions.setJoystickX(0);
   };
 
-  // useEffect(() => {
-  //   switch (item) {
-  //     case "banana":
-  //       setImage("./images/banana.webp");
-  //       break;
-  //     case "mushroom":
-  //       setImage("./images/mushroom.png");
-  //       break;
-  //     case "shell":
-  //       setImage("./images/shell.webp");
-  //       break;
-  //     default:
-  //       setImage("");
-  //   }
-  // }, [item]);
+  let coversAcquired = [];
+  item.map(e => {
+    coversAcquired.push(coverConfig.find(x => x.id === e))
+  })
+
   const linkIdHash = {
     "ACCIDENT_COVER": "/images/accident_cover.png",
     "FIRE_HAZARD_COVER": "/images/fire_hazard.png",
@@ -66,12 +57,12 @@ export const HUD = () => {
     <div className="overlay" style={{flexDirection: "column"}}>
       {gameStarted && (
         <>
-            {item.map((e,i) => {
+            {coversAcquired.map((e,i) => {
               return (<div className="item">
                 <div className="borderOut">
                   <div className="borderIn">
                     <div className="background">
-                      {linkIdHash[e] && <img src={linkIdHash[e]} alt="item" width={40} key={i} />}
+                      {e.imageUrl && <img src={e.imageUrl} alt="item" width={40} key={i} />}
                     </div>
                   </div>
                 </div>
